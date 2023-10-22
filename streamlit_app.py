@@ -10,6 +10,13 @@ st.set_page_config(
     layout="wide"
 )
 
+# Agrega metadatos Open Graph al HTML
+st.html("""
+<meta property="og:image" content="https://i.postimg.cc/kgYJgL5D/streamlit-page.jpg">
+<meta property="og:title" content="Portfolio - Guillermo Cerato">
+<meta property="og:description" content="Page where I show my work done and my skills.">
+""")
+
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
