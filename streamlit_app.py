@@ -32,5 +32,5 @@ right: 2rem;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: color: white; center'>Guillermo Cerato</h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: color: white;center'>Data analyst</h2>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center'; color: white>Guillermo Cerato</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center'; color: white>Data analyst</h2>", unsafe_allow_html=True)
