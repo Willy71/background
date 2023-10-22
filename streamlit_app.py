@@ -41,7 +41,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://i.postimg.cc/BnNQFd7x/nombre.png" width="800">'
+    f'<img src="https://i.postimg.cc/BnNQFd7x/nombre.png" width="600">'
     f'</div>',
     unsafe_allow_html=True
 )
@@ -78,18 +78,21 @@ st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_al
 with st.container():    
     col50, col51, col52 = st.columns(3)
     with col50:
+        st.markdown("<h3 style='text-align:center; color: white'>Uber - New York</h3>", unsafe_allow_html=True)
         st.image(uber_ny, width=300)
         with st.container():
             col54, col55, col56 = st.columns([2.5,5,3])
             with col55:
                 st.write("[Uber - New York](https://uberviajes.streamlit.app/)")
     with col51:
+        st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
         st.image(cyclist, width=300)
         with st.container():
             col57, col58, col59 = st.columns([2,5,3])
             with col58:
                 st.write("[Study Case - Cyclist](https://www.kaggle.com/code/willycerato/case-study-cyclistic-python)")
     with col52:
+        st.markdown("<h3 style='text-align:center; color: white'>Web page with Python</h3>", unsafe_allow_html=True)
         st.image(streamlit_page, width=300)
         with st.container():
             col60, col61, col62 = st.columns([2,5,3])
