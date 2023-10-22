@@ -79,7 +79,7 @@ with st.container():
     col50, col51, col52 = st.columns(3)
     with col50:
         st.markdown("<h3 style='text-align:center; color: white'>Uber - New York</h3>", unsafe_allow_html=True)
-        st.markdown("<center>[Uber - New York](https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg)(https://uberviajes.streamlit.app/)</center>", unsafe_allow_html=True)
+        st.markdown("<center>![Uber - New York](https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg)(https://uberviajes.streamlit.app/)</center>", unsafe_allow_html=True)
     with col51:
         st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
         st.image(cyclist, width=300)
