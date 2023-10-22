@@ -3,6 +3,13 @@ import requests
 from PIL import Image
 import base64
 
+# Colocar nome na pagina, icone e ampliar a tela
+st.set_page_config(
+    page_title="Guillermo Cerato",
+    page_icon="💻",
+    layout="wide"
+)
+
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
