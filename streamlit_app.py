@@ -99,6 +99,7 @@ with st.container():
         col3, col14, col15, col16, col17 = st.columns(5)
         with col14:            
             st.text(" ")
+            st.text(" ")
             st.markdown(
                 f'<div style="display: flex; justify-content: center;">'
                 f'<img src="https://i.postimg.cc/V6Jjp90V/streamlit-logo.jpg" width="150">'
