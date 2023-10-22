@@ -65,6 +65,8 @@ with st.container():
         #st.write(
             #"[Work done with Streamlit >](https://uberviajes.streamlit.app/)")
     with col7:
+        st.text("")
+        st.text("")
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
             f'<img src="https://i.postimg.cc/TPvkg31s/programmer.jpg" width="300">'
