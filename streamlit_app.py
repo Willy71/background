@@ -85,10 +85,7 @@ with st.container():
             f'</div>',
             unsafe_allow_html=True
         )
-        with st.container():
-            col54, col55, col56 = st.columns([2.5,5,3])
-            with col55:
-                st.write("[Uber - New York](https://uberviajes.streamlit.app/)")
+        st.markdown("[Uber - New York](https://uberviajes.streamlit.app/)")
     with col51:
         st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
         st.image(cyclist, width=300)
