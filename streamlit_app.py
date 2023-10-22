@@ -31,11 +31,11 @@ right: 2rem;
 """
 
 mi_foto = Image.open('willy_002.png')
-coding = Image.open('pngegg.png')
+coding = Image.open('python.png')
 laptop = Image.open('laptop.jpg')
 uber_ny = Image.open('uber_ny.jpg')
 cyclist = Image.open('Cyclist_sc.jpg')
-streamlit = Image.open('streamlit.png')
+streamlit = Image.open('streamlit_logo.jpg')
 coding_small = 'coding_small.gif'
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
