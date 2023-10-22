@@ -79,7 +79,12 @@ with st.container():
     col50, col51, col52 = st.columns(3)
     with col50:
         st.markdown("<h3 style='text-align:center; color: white'>Uber - New York</h3>", unsafe_allow_html=True)
-        st.image(uber_ny, width=300)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg" width="300">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
         with st.container():
             col54, col55, col56 = st.columns([2.5,5,3])
             with col55:
