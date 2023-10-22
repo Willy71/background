@@ -54,7 +54,7 @@ with st.container():
     with col2:
         col3, col4, col5 = st.columns(3)
         with col4:
-            st.image(mi_foto, width=200)
+            st.image(mi_foto, width=300)
 
 with st.container():
     st.write("---")
