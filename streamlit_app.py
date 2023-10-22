@@ -30,6 +30,7 @@ right: 2rem;
 </style>
 """
 
+mi_nombre = Image.open('nombre.gif')
 mi_foto = Image.open('willy_002.png')
 coding = Image.open('python.png')
 laptop = Image.open('laptop.jpg')
@@ -39,7 +40,13 @@ streamlit = Image.open('streamlit_logo.jpg')
 coding_small = 'coding_small.gif'
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.markdown("<h1 style='text-align:center; color: white'>Guillermo Cerato</h1>", unsafe_allow_html=True)
+
+st.markdown(
+    f'<div style="display: flex; justify-content: center;">'
+    f'<img src="https://i.postimg.cc/7PBGvJn3/nombre.gif" width="300">'
+    f'</div>',
+    unsafe_allow_html=True
+)
 st.markdown("<h2 style='text-align:center; color: white'>Data analyst</h2>", unsafe_allow_html=True)
 
 with st.container():
