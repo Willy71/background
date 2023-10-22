@@ -65,12 +65,12 @@ with st.container():
         #st.write(
             #"[Work done with Streamlit >](https://uberviajes.streamlit.app/)")
     with col7:
-        col8, col9, col10 = st.columns([4, 8, 4])
-        with col9:
-            st.text(" ")
-            st.text(" ")
-            st.text(" ")
-            st.image(coding_small, width=280, use_column_width=True)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/TPvkg31s/programmer.jpg" width="300">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
 
 st.write("---")
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
