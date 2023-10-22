@@ -85,7 +85,7 @@ with st.container():
             f'</div>',
             unsafe_allow_html=True
         )
-        st.markdown("[Link](https://uberviajes.streamlit.app/)", unsafe_allow_html=True)        
+        st.markdown("<h1 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Link</a></h1>", unsafe_allow_html=True)        
     with col51:
         st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
         st.image(cyclist, width=300)
