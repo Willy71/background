@@ -30,10 +30,7 @@ right: 2rem;
 </style>
 """
 
-mi_nombre = Image.open('nombre.gif')
-mi_foto = Image.open('willy_002.png')
 coding = Image.open('python.png')
-laptop = Image.open('laptop.jpg')
 uber_ny = Image.open('uber_ny.jpg')
 cyclist = Image.open('Cyclist_sc.jpg')
 streamlit = Image.open('streamlit_logo.jpg')
@@ -55,24 +52,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-with st.container():
-    st.write("---")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.text(" ")
-        st.text(" ")
-        st.text(" ")
-        st.text(" ")
-        st.text(" ")
-        st.markdown("<h3 style='text-align: center; color: white'>Portfolio on data analysis, web page creation and machine learning, based on Python</h3>", unsafe_allow_html=True)
-        with st.container():
-            col40, col41, col42 = st.columns([6, 3, 6])
-            with col41:
-                st.write("[Linkedin >](https://www.linkedin.com/in/willycerato/)")
-    with col2:
-        col3, col4, col5 = st.columns(3)
-        with col4:
-            st.image(mi_foto, width=300)
+st.markdown("<h2 style='text-align: center; color: white'>Portfolio on data analysis, web page creation and machine learning, based on Python</h2>", unsafe_allow_html=True)
+     
 
 with st.container():
     st.write("---")
