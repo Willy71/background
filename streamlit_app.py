@@ -103,8 +103,7 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python</h2>", unsafe_allow_html=True)
     with col12:
         col3, col14, col15, col16, col17 = st.columns(5)
-        with col14:
-            st.text(" ")
+        with col14:            
             st.text(" ")            
             st.image(streamlit, width=200)
         with col16:
