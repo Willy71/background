@@ -1,3 +1,7 @@
+import streamlit as st
+import base64
+import plotly.express as px
+
 df = px.data.iris()
 
 
