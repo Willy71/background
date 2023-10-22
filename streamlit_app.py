@@ -76,7 +76,7 @@ st.write("---")
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
 
 with st.container():    
-    col50, col51, col53 = st.columns(3)
+    col50, col51, col52 = st.columns(3)
     with col50:
         st.image(uber_ny, width=300)
         with st.container():
