@@ -1,8 +1,5 @@
 import streamlit as st
 import base64
-import plotly.express as px
-
-df = px.data.iris()
 
 
 @st.cache_data
@@ -20,7 +17,7 @@ page_bg_img = f"""
 background-image: url("https://i.postimg.cc/6pnkb8sw/back-dev.jpg");
 background-size: 180%;
 background-position: top left;
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-attachment: local;
 }}
 
@@ -35,7 +32,3 @@ right: 2rem;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center'>Guillermo Cerato</h1>",
-            unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center'>Data analyst</h2>",
-            unsafe_allow_html=True)
