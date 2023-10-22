@@ -34,6 +34,7 @@ coding = Image.open('python.png')
 uber_ny = Image.open('uber_ny.jpg')
 cyclist = Image.open('Cyclist_sc.jpg')
 streamlit = Image.open('streamlit_logo.jpg')
+streamlit_page = Image.open('streamlit_page.jpg')
 coding_small = 'coding_small.gif'
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
@@ -87,7 +88,13 @@ with st.container():
         with st.container():
             col57, col58, col59 = st.columns([2,5,3])
             with col58:
-                st.write("[Study Case - Cyclist](https://www.kaggle.com/code/willycerato/case-study-cyclistic-python)") 
+                st.write("[Study Case - Cyclist](https://www.kaggle.com/code/willycerato/case-study-cyclistic-python)")
+    with col52:
+        st.image(streamlit_page, width=300)
+        with st.container():
+            col60, col61, col62 = st.columns([2,5,3])
+            with col61:
+                st.write("[Streamlit website](https://github.com/Willy71/background/)")
 
 with st.container():
     st.write("---")
