@@ -102,7 +102,7 @@ with st.container():
     with col12:
         col3, col14, col15, col16, col17 = st.columns(5)
         with col14:
-            st.image(streamlit, width=150)
+            st.image(streamlit, width=200)
         with col16:
             st.image(coding, width=150)
 st.write("---")
