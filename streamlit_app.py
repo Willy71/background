@@ -88,18 +88,22 @@ with st.container():
         st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)        
     with col51:
         st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
-        st.image(cyclist, width=300)
-        with st.container():
-            col57, col58, col59 = st.columns([2,5,3])
-            with col58:
-                st.write("[Study Case - Cyclist](https://www.kaggle.com/code/willycerato/case-study-cyclistic-python)")
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg" width="300">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://www.kaggle.com/code/willycerato/case-study-cyclistic-python'>Link</a></h5>", unsafe_allow_html=True)
     with col52:
         st.markdown("<h3 style='text-align:center; color: white'>Web page with Python</h3>", unsafe_allow_html=True)
-        st.image(streamlit_page, width=300)
-        with st.container():
-            col60, col61, col62 = st.columns([2,5,3])
-            with col61:
-                st.write("[Streamlit website](https://github.com/Willy71/background/)")
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/kgYJgL5D/streamlit-page.jpg" width="300">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
 
 with st.container():
     st.write("---")
