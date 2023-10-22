@@ -5,7 +5,7 @@ import base64
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
-    page_title="Guillermo Cerato",
+    page_title="Portfolio - Guillermo Cerato",
     page_icon="💻",
     layout="wide"
 )
