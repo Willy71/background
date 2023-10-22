@@ -46,7 +46,7 @@ with st.container():
     st.write("---")
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown("<h3 style='text-align: center'>Portfolio on data analysis, web page creation and machine learning, based on Python</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center; color: white'>Portfolio on data analysis, web page creation and machine learning, based on Python</h3>", unsafe_allow_html=True)
         with st.container():
             col40, col41, col42 = st.columns([6, 3, 6])
             with col41:
@@ -60,7 +60,7 @@ with st.container():
     st.write("---")
     col6, col7 = st.columns(2)
     with col6:
-        st.markdown("<h2 style='text-align: center'>My objective</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: white'>My objective</h2>", unsafe_allow_html=True)
         st.write(
             """
             Welcome to my website, which focuses on showcasing my work. 
@@ -76,7 +76,7 @@ with st.container():
             st.image(coding_small, width=280, use_column_width=True)
 
 st.write("---")
-st.markdown("<h1 style='text-align: center'>Works</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
 
 with st.container():    
     col50, col51, col53 = st.columns(3)
@@ -97,7 +97,7 @@ with st.container():
     st.write("---")
     col11, col12 = st.columns(2)
     with col11:
-        st.markdown("<h2 style='text-align: center'>Website made with Streamlit</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit</h2>", unsafe_allow_html=True)
         st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python</h2>", unsafe_allow_html=True)
     with col12:
         col3, col14, col15, col16, col17 = st.columns(5)
