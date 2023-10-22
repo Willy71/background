@@ -74,6 +74,7 @@ with st.container():
         with col9:
             st.text(" ")
             st.text(" ")
+            st.text(" ")
             st.image(coding_small, width=280, use_column_width=True)
 
 st.write("---")
