@@ -3,6 +3,14 @@ import requests
 from PIL import Image
 import base64
 
+# Configurar la presentación preliminar de la página
+st.set_page_config(
+    page_title="Portfolio Guillermo Cerato",
+    page_icon="https://i.postimg.cc/kgYJgL5D/streamlit-page.jpg",  # Puedes cambiar esto a una URL de una imagen
+    layout="wide",  # Opciones: 'centered', 'wide', 'narrow'
+    initial_sidebar_state="expanded"  # Opciones: "auto", "expanded", "collapsed"
+)
+
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
     page_title="Guillermo Cerato",
