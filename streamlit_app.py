@@ -52,7 +52,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("<h2 style='text-align: center; color: white'>Portfolio on data analysis, web page creation and machine learning, based on Python</h2>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: white'>Portfolio on data analysis, web page creation and machine learning, based on Python</h3>", unsafe_allow_html=True)
      
 
 with st.container():
