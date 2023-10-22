@@ -98,8 +98,18 @@ with st.container():
     with col12:
         col3, col14, col15, col16, col17 = st.columns(5)
         with col14:            
-            st.text(" ")            
-            st.image(streamlit, width=200)
+            st.text(" ")
+            st.markdown(
+                f'<div style="display: flex; justify-content: center;">'
+                f'<img src="https://i.postimg.cc/V6Jjp90V/streamlit-logo.jpg" width="300">'
+                f'</div>',
+                unsafe_allow_html=True
+            )           
         with col16:
-            st.image(coding, width=150)
+            st.markdown(
+                f'<div style="display: flex; justify-content: center;">'
+                f'<img src="https://i.postimg.cc/1znXZvMw/python.png" width="300">'
+                f'</div>',
+                unsafe_allow_html=True
+            )              
 st.write("---")
