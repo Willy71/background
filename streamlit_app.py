@@ -104,6 +104,8 @@ with st.container():
     with col12:
         col3, col14, col15, col16, col17 = st.columns(5)
         with col14:
+            st.text(" ")
+            st.text(" ")            
             st.image(streamlit, width=200)
         with col16:
             st.image(coding, width=150)
