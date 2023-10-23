@@ -108,6 +108,21 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
 
+with st.container():    
+    col53, col54, col55 = st.columns(3)
+    with col53:
+        st.markdown("<h3 style='text-align:center; color: white'>Fifa 2023</h3>", unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/bv5pP5T8/fifa2023.jpg" width="300">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://jugadores2023.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True) 
+
+
+
+
 with st.container():
     st.write("---")
     col11, col12 = st.columns(2)
