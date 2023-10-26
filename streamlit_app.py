@@ -141,5 +141,5 @@ with st.container():
             )              
 st.write("---")
 
-st.markdown( '<a href='http://www.freevisitorcounters.com'>Free Visitor Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c2ecb4df5f3e5f30e6623e0ccb2c164c450b6043'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1092916/t/11"></script>', unsafe_allow_html=True)
+st.markdown(<h5 style='text-align: center;'><a href='http://www.freevisitorcounters.com'>Free Visitor Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c2ecb4df5f3e5f30e6623e0ccb2c164c450b6043'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1092916/t/11"></script></a></h5>, unsafe_allow_html=True)
