@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from PIL import Image
 import base64
-from state import count_sessions
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -141,8 +140,4 @@ with st.container():
                 unsafe_allow_html=True
             )              
 st.write("---")
-
-count_sessions()
-
-st.write("test")
 
