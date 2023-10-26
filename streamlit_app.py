@@ -141,4 +141,5 @@ with st.container():
             )              
 st.write("---")
 
-st.markdown('![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=https://share.streamlit.io/your_deployed_app_link&label=VisitorsCount&labelColor=000000&logo=GitHub&logoColor=FFFFFF&color=1D70B8&style=for-the-badge)')
+st.markdown( <a href='http://www.freevisitorcounters.com'>Free Visitor Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c2ecb4df5f3e5f30e6623e0ccb2c164c450b6043'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1092916/t/11"></script>)
