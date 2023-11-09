@@ -129,14 +129,14 @@ st.title("")
 st.title("")
 
 with st.container():    
-    col101, col102, col103, col104 = st.columns(4)
-    with col101:
-        centrar_texto("[Kaggle](https://www.kaggle.com/willycerato)", 7, "blue")
+    col101, col102, col103, col104, col105, col06 = st.columns(6)
     with col102:
-        st.markdown("[Github](https://github.com/Willy71)")
+        centrar_texto("[Kaggle](https://www.kaggle.com/willycerato)", 7, "blue")
     with col103:
-        st.markdown("[Instagram](https://www.instagram.com/willycerato)")
+        st.markdown("[Github](https://github.com/Willy71)")
     with col104:
+        st.markdown("[Instagram](https://www.instagram.com/willycerato)")
+    with col105:
         st.markdown("[Facebook](https://www.facebook.com/guillermo.cerato)")
 
 with st.container():
