@@ -46,7 +46,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://i.postimg.cc/BnNQFd7x/nombre.png" width="600">'
+    f'<img src="https://i.postimg.cc/JnjxbmL9/nombre-2-remove.png" width="600">'
     f'</div>',
     unsafe_allow_html=True
 )
