@@ -10,6 +10,19 @@ st.set_page_config(
     layout="wide"
 )
 
+def centrar_imagen(imagen, ancho):
+    # Aplicar estilo CSS para centrar la imagen con Markdown
+    st.markdown(
+        f'<div style="display: flex; justify-content: center;">'
+        f'<img src="{imagen}" width="{ancho}">'
+        f'</div>',
+        unsafe_allow_html=True
+    )
+
+def centrar_texto(texto, tamanho, color):
+    st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
+            unsafe_allow_html=True)
+
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
@@ -118,7 +131,7 @@ st.title("")
 with st.container():    
     col101, col102, col103, col104 = st.columns(4)
     with col101:
-        st.markdown("[Kaggle](https://www.kaggle.com/willycerato)")
+        centrar_texto("[Kaggle](https://www.kaggle.com/willycerato)")
     with col102:
         st.markdown("[Github](https://github.com/Willy71)")
     with col103:
