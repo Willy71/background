@@ -26,7 +26,7 @@ def centrar_texto(texto, tamanho, color):
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/5yCDDD8J/v627-aew-40-technologybackground.jpg");
+background-image: url("https://i.postimg.cc/44WK3qCP/depositphotos-167912714-stock-photo-programming-code-abstract-technology-background.jpg");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
