@@ -152,7 +152,7 @@ with st.container():
             st.text(" ")
             st.markdown(
                 f'<div style="display: flex; justify-content: center;">'
-                f'<img src="https://i.postimg.cc/V6Jjp90V/streamlit-logo.jpg" width="150">'
+                f'<img src="https://i.postimg.cc/zDtb06GM/streamlit-page.jpg" width="150">'
                 f'</div>',
                 unsafe_allow_html=True
             )           
