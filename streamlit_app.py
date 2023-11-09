@@ -131,7 +131,7 @@ st.title("")
 with st.container():    
     col101, col102, col103, col104 = st.columns(4)
     with col101:
-        centrar_texto([Kaggle](https://www.kaggle.com/willycerato), 7, "white")
+        centrar_texto("[Kaggle](https://www.kaggle.com/willycerato)", 7, "blue")
     with col102:
         st.markdown("[Github](https://github.com/Willy71)")
     with col103:
