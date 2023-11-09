@@ -112,10 +112,19 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://jugadores2023.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True) 
 
-st.markdown("[Kaggle](https://www.kaggle.com/willycerato)")
-st.markdown("[Github](https://github.com/Willy71)")
-st.markdown("[Instagram](https://www.instagram.com/willycerato)")
-st.markdown("[Facebook](https://www.facebook.com/guillermo.cerato)")
+st.title("")
+st.title("")
+
+with st.container():    
+    col101, col102, col103, col104 = st.columns(4)
+    with col101:
+        st.markdown("[Kaggle](https://www.kaggle.com/willycerato)")
+    with col102:
+        st.markdown("[Github](https://github.com/Willy71)")
+    with col103:
+        st.markdown("[Instagram](https://www.instagram.com/willycerato)")
+    with col104:
+        st.markdown("[Facebook](https://www.facebook.com/guillermo.cerato)")
 
 with st.container():
     st.write("---")
