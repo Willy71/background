@@ -139,6 +139,31 @@ with st.container():
     with col105:
         st.markdown("[Facebook](https://www.facebook.com/guillermo.cerato)")
 
+st.title("")
+
+centrar_texto("About me", 3, "white")
+
+centrar_texto("    My name is Guillermo, I'm Argentine and I've been living in Brazil since November 2016. Married, my wife is Brazilian, her name is Samella, and so are my children. I have an almost three year old son named Benício Luca and an almost 9 year old daughter called Ester Valentina. I also have another 24-year-old son in Argentina from my first marriage, named Juan Ignacio and nickname Nacho.
+
+    Most of my professional experience was in Argentina. Here in Brazil, most of the time I was a tourism-oriented micro entrepreneur, I organized and sold tours to different beaches on the coast of Alagoas, I made many Spanish-speaking tourists have a tourism experience without setbacks, organized and pleasant, through a page and a Facebook group that is still working: https://www.facebook.com/turismomaceioenespanol
+
+    During part of 2018 and all of 2019 I had my own inn two streets from the beach in the beautiful neighborhood of Pajuçara, in Maceió, called Lupita Hostel e Pousada.
+During and after the pandemic, I manufactured and sold, as a micro-enterprise, alfajores with recipes from my city, all homemade.@alfajor.milagros on instagram.
+
+   My professional experience in Argentina includes sales at Unifon, a company dedicated to cell phone services. I even had my own sales team and sub-agency. Organized events, stands, trained employees in sales techniques. This is when I started making my first sales reports in Excel in 1996.
+
+   After leaving Unifon, I became part of Parmalat Argentina in my city, Mar del Plata. Here I worked as a supervisor of a team of stockers / sales promoters. In addition to helping my team with sales and doing commercial management with the different managers of the local supermarket chains, I was also in charge of making the employee's routes. The administrative part also had a lot of spreadsheets in Excel, so thanks to this work I continued to improve my learning in statistical analysis.
+
+   At Nokia in 2006, I joined as head of the area, or as they later called my position, Field Supervisor. My tasks, in addition to supervising a team of 16 people in the province of Buenos Aires, and part of La Pampa, were also organizing events, coaching, team metrics, weekly meetings with my team, weekly meetings with my bosses, sales analysis, commercial management with retail managers and cell phone agents, periodic presentations to my bosses of my area's metrics, presentation of my team's metrics, in addition to debating ideas on how to always improve sales.
+
+   Summary: Almost all jobs I had had metrics, data, statistical analysis, sales analysis, which I had to do and/or analyze always using Excel. Thanks to that, I became experienced, and one thing that I really enjoy doing are the formulas, in addition to the functions that the software already has that are of great help for the ETL work. As my curiosity is great, I was always worried about how I would solve the fact that Excel has its limitations, that's how I became interested in the data analyst profession when I started doing research on how to solve this fact. As I advanced in research I saw that I had many more tools, equal or more exciting than Excel, to do different tasks. SQL, Python and Power Bi. That's how I started studying Python in a self-taught way, and how I later enrolled in the Google Data Analytics PT by Coursera course to give my study a little more order. In addition, I continue to perfect myself in the different tools that the course sometimes appears only superficially.
+
+My curious, detail-oriented and perfectionist nature makes me not stop studying and continue perfecting myself. There is always some new tool, for me, that facilitates the work of an analyst.
+
+
+", 7, "white")
+
+
 with st.container():
     st.write("---")
     col11, col12 = st.columns(2)
