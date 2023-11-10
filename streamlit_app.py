@@ -135,7 +135,7 @@ with st.container():
     with col103:
         centrar_texto("[Github](https://github.com/Willy71)", 7, "blue")
     with col104:
-        centrar_texto("[Instagram](https://www.instagram.com/willycerato)"), 7, "blue")
+        centrar_texto("[Instagram](https://www.instagram.com/willycerato)", 7, "blue")
     with col105:
         centrar_texto("[Facebook](https://www.facebook.com/guillermo.cerato)", 7, "blue")
 
