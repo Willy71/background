@@ -175,7 +175,7 @@ with st.container():
 st.title("")
 centrar_texto("Recommendations", 1, "white")
 centrar_texto("Maximiliano Roca Saran", 6, "white")
-centrar_texto("Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented. He is a very good team builder. He is always willing to learn new things and change.", 7, "white)
+centrar_texto("Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented. He is a very good team builder. He is always willing to learn new things and change.", 7, "white")
 
 
 
