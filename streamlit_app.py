@@ -169,7 +169,8 @@ with st.container():
         centrar_texto("Google Data Analytics Final Project: Complete a Case Study", 7, "white")
         centrar_texto("Ask questions to make data-driven decisions", 7, "white")
     with col202:
-        centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 400)
+        centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 350)
+        centrar_texto("[Github](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)", 7, "blue")
         
 st.title("")
 centrar_texto("Recommendations", 1, "white")
