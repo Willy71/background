@@ -160,7 +160,7 @@ centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 with st.container():
     col201, col202 = st.columns(2)
     with col201:
-       centrar_texto("Share data with the art of visualization", 7, "white")
+        centrar_texto("Share data with the art of visualization", 7, "white")
         centrar_texto("Data analysis with R programming", 7, "white")
         centrar_texto("Analyze data to answer questions", 7, "white")
         centrar_texto("Fundamentals: Data, Data, Everywhere", 7, "white")
