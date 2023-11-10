@@ -154,7 +154,7 @@ centrar_texto(" Summary: Almost all jobs I had had metrics, data, statistical an
 centrar_texto("My curious, detail-oriented and perfectionist nature makes me not stop studying and continue perfecting myself. There is always some new tool, for me, that facilitates the work of an analyst.", 7, "white")
 
 st.title("")
-centrar_texto("academic training", 2, "white")
+centrar_texto("Academic training", 2, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 centrar_texto("Share data with the art of visualization", 7, "white")
 centrar_texto("Data analysis with R programming", 7, "white")
