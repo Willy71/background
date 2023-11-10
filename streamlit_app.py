@@ -133,11 +133,11 @@ with st.container():
     with col102:
         centrar_texto("[Kaggle](https://www.kaggle.com/willycerato)", 7, "blue")
     with col103:
-        st.markdown("[Github](https://github.com/Willy71)")
+        centrar_texto("[Github](https://github.com/Willy71)", 7, "blue")
     with col104:
-        st.markdown("[Instagram](https://www.instagram.com/willycerato)")
+        centrar_texto("[Instagram](https://www.instagram.com/willycerato)"), 7, "blue")
     with col105:
-        st.markdown("[Facebook](https://www.facebook.com/guillermo.cerato)")
+        centrar_texto("[Facebook](https://www.facebook.com/guillermo.cerato)", 7, "blue")
 
 st.title("")
 
@@ -170,7 +170,7 @@ with st.container():
         centrar_texto("Ask questions to make data-driven decisions", 7, "white")
     with col202:
         centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 350)
-        centrar_texto("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)", 6, "blue")
+        centrar_texto("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)", 7, "blue")
         
 st.title("")
 centrar_texto("Recommendations", 1, "white")
