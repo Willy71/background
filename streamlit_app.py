@@ -182,10 +182,8 @@ st.markdown("<h3 style='text-align:left; color: white'>Cristina Jacquemin - Acco
 centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 7, "white")
 
 st.title("")
-st.markdown("<h3 style='text-align:left; color: white'>Ariel Smirnoff - Business coach</h3>", unsafe_allow_html=True)
-centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.
-Super results oriented.
-Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility, and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 7, "white")
+st.markdown("<h3 style='text-align:left; color: white'>Ariel Smirnoff - Business coach</h3>", unsafe_allow_html=True) 
+centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented. Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility, and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 7, "white")
 
 st.title("")
 st.markdown("<h3 style='text-align:left; color: white'>Agustin Valdes Marteles - Make it happen</h3>", unsafe_allow_html=True)
