@@ -158,8 +158,8 @@ centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 
 with st.container():
-    col201, col202 = st.columns(2)
-    with col201:
+    col201, col202, col203, col204 = st.columns(4)
+    with col202:
         centrar_texto("Share data with the art of visualization", 7, "white")
         centrar_texto("Data analysis with R programming", 7, "white")
         centrar_texto("Analyze data to answer questions", 7, "white")
@@ -168,7 +168,7 @@ with st.container():
         centrar_texto("Prepare Data for Exploration", 7, "white")
         centrar_texto("Google Data Analytics Final Project: Complete a Case Study", 7, "white")
         centrar_texto("Ask questions to make data-driven decisions", 7, "white")
-    with col202:
+    with col203:
         centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 350)
         centrar_texto("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)", 7, "blue")
         
