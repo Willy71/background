@@ -141,7 +141,7 @@ with st.container():
 
 st.title("")
 
-centrar_texto("About me", 3, "white")
+centrar_texto("About me", 2, "white")
 
 centrar_texto("My name is Guillermo, I'm Argentine and I've been living in Brazil since November 2016. Married, my wife is Brazilian, her name is Samella, and so are my children. I have an almost three year old son named Benício Luca and an almost 9 year old daughter called Ester Valentina. I also have another 24-year-old son in Argentina from my first marriage, named Juan Ignacio and nickname Nacho.", 7, "white")
 centrar_texto(" Most of my professional experience was in Argentina. Here in Brazil, most of the time I was a tourism-oriented micro entrepreneur, I organized and sold tours to different beaches on the coast of Alagoas, I made many Spanish-speaking tourists have a tourism experience without setbacks, organized and pleasant, through a page and a Facebook group that is still working: https://www.facebook.com/turismomaceioenespanol", 7, "white")
