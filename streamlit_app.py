@@ -154,27 +154,18 @@ centrar_texto(" Summary: Almost all jobs I had had metrics, data, statistical an
 centrar_texto("My curious, detail-oriented and perfectionist nature makes me not stop studying and continue perfecting myself. There is always some new tool, for me, that facilitates the work of an analyst.", 7, "white")
 
 st.title("")
-centrar_texto("academic training", 3, "white")
-st.title("")
-centrar_texto("Profissional Google Data Analytics by Coursera", 5, "white")
-st.title("")
+centrar_texto("academic training", 2, "white")
+centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 centrar_texto("Share data with the art of visualization", 7, "white")
-
 centrar_texto("Data analysis with R programming", 7, "white")
-
 centrar_texto("Analyze data to answer questions", 7, "white")
-
 centrar_texto("Fundamentals: Data, Data, Everywhere", 7, "white")
-
 centrar_texto("Process the data to clean it", 7, "white")
-
 centrar_texto("Prepare Data for Exploration", 7, "white")
-
 centrar_texto("Google Data Analytics Final Project: Complete a Case Study", 7, "white")
-
 centrar_texto("Ask questions to make data-driven decisions", 7, "white")
 st.title("")
-centrar_texto("Recommendations", 3, "white")
+centrar_texto("Recommendations", 2, "white")
 st.title("")
 
 
