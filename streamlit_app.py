@@ -153,6 +153,30 @@ centrar_texto("At Nokia in 2006, I joined as head of the area, or as they later 
 centrar_texto(" Summary: Almost all jobs I had had metrics, data, statistical analysis, sales analysis, which I had to do and/or analyze always using Excel. Thanks to that, I became experienced, and one thing that I really enjoy doing are the formulas, in addition to the functions that the software already has that are of great help for the ETL work. As my curiosity is great, I was always worried about how I would solve the fact that Excel has its limitations, that's how I became interested in the data analyst profession when I started doing research on how to solve this fact. As I advanced in research I saw that I had many more tools, equal or more exciting than Excel, to do different tasks. SQL, Python and Power Bi. That's how I started studying Python in a self-taught way, and how I later enrolled in the Google Data Analytics PT by Coursera course to give my study a little more order. In addition, I continue to perfect myself in the different tools that the course sometimes appears only superficially.", 7, "white")
 centrar_texto("My curious, detail-oriented and perfectionist nature makes me not stop studying and continue perfecting myself. There is always some new tool, for me, that facilitates the work of an analyst.", 7, "white")
 
+st.title("")
+centrar_texto("academic training", 3, "white")
+st.title("")
+centrar_texto("Profissional Google Data Analytics by Coursera", 5, "white")
+st.title("")
+centrar_texto("Share data with the art of visualization", 7, "white")
+
+centrar_texto("Data analysis with R programming", 7, "white")
+
+centrar_texto("Analyze data to answer questions", 7, "white")
+
+centrar_texto("Fundamentals: Data, Data, Everywhere", 7, "white")
+
+centrar_texto("Process the data to clean it", 7, "white")
+
+centrar_texto("Prepare Data for Exploration", 7, "white")
+
+centrar_texto("Google Data Analytics Final Project: Complete a Case Study", 7, "white")
+
+centrar_texto("Ask questions to make data-driven decisions", 7, "white")
+st.title("")
+centrar_texto("Recommendations", 3, "white")
+st.title("")
+
 
 
     
