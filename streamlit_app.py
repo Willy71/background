@@ -174,8 +174,7 @@ with st.container():
         
 st.title("")
 centrar_texto("Recommendations", 1, "white")
-st.markdown("<h3 style='text-align:left; color: white'>Maximiliano Roca Saran</h3>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align:left; color: white'>Key account manager - Mobile phones</h4>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align:left; color: white'>Maximiliano Roca Saran - Key account manager - Mobile phones</h3>", unsafe_allow_html=True)
 centrar_texto("Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented. He is a very good team builder. He is always willing to learn new things and change.", 7, "white")
 
 
