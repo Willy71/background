@@ -170,7 +170,7 @@ with st.container():
         centrar_texto("Ask questions to make data-driven decisions", 7, "white")
     with col203:
         centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 350)
-        centrar_texto("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)", 7, "blue")
+        st.markdown("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)")
         
 st.title("")
 centrar_texto("Recommendations", 1, "white")
