@@ -84,8 +84,8 @@ st.write("---")
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
 
 with st.container():    
-    col50, col51, col52, col53 = st.columns(4)
-    with col50:
+    col50, col51, col52, col53, col54 = st.columns(5)
+    with col51:
         st.markdown("<h3 style='text-align:center; color: white'>Uber - New York</h3>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -94,7 +94,7 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)        
-    with col51:
+    with col52:
         st.markdown("<h3 style='text-align:center; color: white'>Study Case Coursera</h3>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -103,7 +103,7 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://www.kaggle.com/code/willycerato/case-study-cyclistic-python'>Link</a></h5>", unsafe_allow_html=True)
-    with col52:
+    with col53:
         st.markdown("<h3 style='text-align:center; color: white'>Web page with Python</h3>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -112,7 +112,10 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
-    with col53:
+    
+with st.container():    
+    col55, col56, col57, col58 = st.columns(4)
+    with col56:
         st.markdown("<h3 style='text-align:center; color: white'>Fifa 2023</h3>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -121,6 +124,16 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://jugadores2023.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
+    with col57:
+        st.markdown("<h3 style='text-align:center; color: white'>Fifa 2023</h3>", unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/wTSwXgS5/preserntation.jpg" width="200">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
+    
 
 st.title("")
 st.title("")
