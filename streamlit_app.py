@@ -125,7 +125,7 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://jugadores2023.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
     with col57:
-        st.markdown("<h5 style='text-align:center; color: white'>Fifa 2023</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align:center; color: white'>Futbol argentino</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
             f'<img src="https://i.postimg.cc/wTSwXgS5/preserntation.jpg" width="200">'
