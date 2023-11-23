@@ -66,7 +66,7 @@ st.markdown(
 
 st.markdown("<h3 style='text-align: center; color: white'>Portfolio on data analysis based on Python</h3>", unsafe_allow_html=True)
 
-st.markdown("-")
+st.write("-")
 
 with st.container():
     st.write("---")
