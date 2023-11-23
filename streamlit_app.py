@@ -143,8 +143,7 @@ with st.container():
         st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
     
 
-st.markdown("")
-st.markdown("")
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 centrar_texto("About me", 1, "white")
 
@@ -157,6 +156,8 @@ centrar_texto("After leaving Unifon, I became part of Parmalat Argentina in my c
 centrar_texto("At Nokia in 2006, I joined as head of the area, or as they later called my position, Field Supervisor. My tasks, in addition to supervising a team of 16 people in the province of Buenos Aires, and part of La Pampa, were also organizing events, coaching, team metrics, weekly meetings with my team, weekly meetings with my bosses, sales analysis, commercial management with retail managers and cell phone agents, periodic presentations to my bosses of my area's metrics, presentation of my team's metrics, in addition to debating ideas on how to always improve sales.", 7, "white")
 centrar_texto(" Summary: Almost all jobs I had had metrics, data, statistical analysis, sales analysis, which I had to do and/or analyze always using Excel. Thanks to that, I became experienced, and one thing that I really enjoy doing are the formulas, in addition to the functions that the software already has that are of great help for the ETL work. As my curiosity is great, I was always worried about how I would solve the fact that Excel has its limitations, that's how I became interested in the data analyst profession when I started doing research on how to solve this fact. As I advanced in research I saw that I had many more tools, equal or more exciting than Excel, to do different tasks. SQL, Python and Power Bi. That's how I started studying Python in a self-taught way, and how I later enrolled in the Google Data Analytics PT by Coursera course to give my study a little more order. In addition, I continue to perfect myself in the different tools that the course sometimes appears only superficially.", 7, "white")
 centrar_texto("My curious, detail-oriented and perfectionist nature makes me not stop studying and continue perfecting myself. There is always some new tool, for me, that facilitates the work of an analyst.", 7, "white")
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 st.title("")
 centrar_texto("Academic training", 1, "white")
@@ -176,6 +177,8 @@ with st.container():
     with col203:
         centrar_imagen("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 350)
         st.markdown("[Title link](https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP)")
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
 st.title("")
 centrar_texto("Recommendations", 1, "white")
@@ -193,6 +196,8 @@ centrar_texto("Guillermo was always super considerate of his team, but also dema
 st.title("")
 st.markdown("<h3 style='text-align:left; color: white'>Agustin Valdes Marteles - Make it happen</h3>", unsafe_allow_html=True)
 centrar_texto("Excellent person and excellent professional. Very human and ideal for the position in which we share company. It has been a pleasure to work with him.", 7, "white")
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
 st.title("")
@@ -212,7 +217,8 @@ with st.container():
     with col56:
         photo_link("Whatsapp", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", "https://wa.me/5542991657847", "50px")
 
-    
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
 with st.container():
     st.write("---")
     col11, col12 = st.columns(2)
