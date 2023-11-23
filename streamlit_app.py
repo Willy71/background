@@ -220,7 +220,6 @@ with st.container():
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
-    st.write("---")
     col11, col12 = st.columns(2)
     with col11:
         st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit</h2>", unsafe_allow_html=True)
@@ -242,6 +241,7 @@ with st.container():
                 f'<img src="https://i.postimg.cc/1znXZvMw/python.png" width="150">'
                 f'</div>',
                 unsafe_allow_html=True
-            )              
-st.write("---")
+            )           
+            
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
