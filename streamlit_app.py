@@ -135,8 +135,8 @@ with st.container():
         st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
     
 
-st.title("")
-st.title("")
+st.markdown("")
+st.markdown("")
 
 with st.container():    
     col101, col102, col103, col104, col105, col06 = st.columns(6)
