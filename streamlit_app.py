@@ -44,7 +44,7 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.write(‘#’)
+st.write("#")
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
