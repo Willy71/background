@@ -159,7 +159,6 @@ centrar_texto("My curious, detail-oriented and perfectionist nature makes me not
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
-st.title("")
 centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 
