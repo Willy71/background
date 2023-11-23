@@ -69,7 +69,6 @@ st.markdown("<h3 style='text-align: center; color: white'>Portfolio on data anal
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
-    st.write("---")
     col6, col7 = st.columns(2)
     with col6:
         st.markdown("<h1 style='text-align: center; color: white'>Objective</h1>", unsafe_allow_html=True)
@@ -89,9 +88,8 @@ with st.container():
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
-
-st.write("---")
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
+st.text("")
 
 with st.container():    
     col50, col51, col52, col53, col54 = st.columns(5)
