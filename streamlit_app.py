@@ -3,8 +3,6 @@ import requests
 from PIL import Image
 import base64
 
-st.write("#")
-
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
     page_title="Portfolio - Guillermo Cerato",
@@ -45,6 +43,8 @@ right: 2rem;
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+st.write("#")
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
