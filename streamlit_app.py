@@ -194,7 +194,6 @@ centrar_texto("Excellent person and excellent professional. Very human and ideal
 
 st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
 st.title("")
-st.title("")
 
 with st.container():    
     col50, col51, col52, col53, col54, col55, col56, col57 = st.columns(8)
