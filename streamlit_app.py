@@ -46,7 +46,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://i.postimg.cc/ZnZ99gWf/Encabezado-nombre-removebg-preview.png" width="350">'
+    f'<img src="https://i.postimg.cc/ZnZ99gWf/Encabezado-nombre-removebg-preview.png" width="320">'
     f'</div>',
     unsafe_allow_html=True
 )
