@@ -129,7 +129,7 @@ with st.container():
     with col57:
         centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col58:
-        centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 210)
+        centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
     with col59:
         centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
       
