@@ -103,9 +103,9 @@ st.text("")
 with st.container():    
     col50, col51, col52, col53, col54 = st.columns(5)
     with col50:
-        centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)        
+        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)       
     with col51:
-        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)
+        centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col52:
         centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)
     with col53:
@@ -120,7 +120,7 @@ with st.container():
     with col56:
         centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 200)
     with col57:
-        centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200)
+        centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col58:
         centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 165)
     with col59:
