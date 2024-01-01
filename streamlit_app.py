@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from PIL import Image
 import base64
-from io import BytesIO
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -53,120 +52,6 @@ right: 2rem;
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
-
-def imagen_ampliada(imagen_url):
-    st.markdown("""
-        <style>
-            .thumbnail {
-                cursor: pointer;
-                transition: transform 0.3s;
-            }
-
-            .enfocada {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(0, 0, 0, 0.8);
-                justify-content: center;
-                align-items: center;
-                z-index: 2;
-            }
-
-            .enfocada img {
-                width: 80%;
-                height: auto;
-            }
-        </style>
-    """, unsafe_allow_html=True)
-
-    # Cargar la imagen desde la URL utilizando Pillow
-    imagen = Image.open(BytesIO(requests.get(imagen_url).content))
-
-    # Mostrar la imagen con Streamlit
-    st.image(imagen, caption="Haz clic para ampliar", use_column_width=True, output_format="auto", key="thumbnail", format="JPEG")
-
-    st.markdown("""
-        <div class="enfocada" onclick="cerrarAmpliacion(this)">
-            <img src="" alt="Imagen Ampliada">
-        </div>
-
-        <script>
-            function ampliarImagen(img) {
-                var imgSrc = img.src;
-                var modal = document.querySelector('.enfocada');
-                var modalImg = modal.querySelector('img');
-                modalImg.src = imgSrc;
-                modal.style.display = 'flex';
-            }
-
-            function cerrarAmpliacion(modal) {
-                modal.style.display = 'none';
-            }
-            
-            // Agregar evento de clic a la miniatura
-            document.querySelector('.thumbnail').addEventListener('click', function() {
-                ampliarImagen(this);
-            });
-        </script>
-    """, unsafe_allow_html=True)
-
-    # Utiliza st.markdown para insertar la imagen con HTML
-    st.markdown(f'<img class="thumbnail" src="{imagen_url}" alt="Imagen" onclick="ampliarImagen(this)">', unsafe_allow_html=True)
-
-    st.markdown("""
-        <div class="enfocada" onclick="cerrarAmpliacion(this)">
-            <img src="" alt="Imagen Ampliada">
-        </div>
-
-        <script>
-            function ampliarImagen(img) {{
-                var imgSrc = img.src;
-                var modal = document.querySelector('.enfocada');
-                var modalImg = modal.querySelector('img');
-                modalImg.src = imgSrc;
-                modal.style.display = 'flex';
-            }}
-
-            function cerrarAmpliacion(modal) {{
-                modal.style.display = 'none';
-            }}
-            
-            // Agregar evento de clic a la miniatura
-            document.querySelector('.thumbnail').addEventListener('click', function() {{
-                ampliarImagen(this);
-            }});
-        </script>
-    """, unsafe_allow_html=True)
-
-    st.image(imagen_url, caption="Haz clic para ampliar", use_column_width=True, output_format="auto", key="thumbnail", format="JPEG")
-
-    st.markdown(f"""
-        <div class="enfocada" onclick="cerrarAmpliacion(this)">
-            <img src="" alt="Imagen Ampliada">
-        </div>
-
-        <script>
-            function ampliarImagen(img) {{
-                var imgSrc = img.src;
-                var modal = document.querySelector('.enfocada');
-                var modalImg = modal.querySelector('img');
-                modalImg.src = imgSrc;
-                modal.style.display = 'flex';
-            }}
-
-            function cerrarAmpliacion(modal) {{
-                modal.style.display = 'none';
-            }}
-            
-            // Agregar evento de clic a la miniatura
-            document.querySelector('.thumbnail').addEventListener('click', function() {{
-                ampliarImagen(this);
-            }});
-        </script>
-    """, unsafe_allow_html=True)
 
 st.write("#")
 
