@@ -53,9 +53,60 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-def photo_link(alt_text, img_url, link_url, img_width):
-    markdown_code = f'<a href="{link_url}" target="_blank"><img src="{img_url}" alt="{alt_text}" width="{img_width}"></a>'
-    st.markdown(markdown_code, unsafe_allow_html=True)
+def imagen_ampliada(imagen_url):
+    st.markdown("""
+        <style>
+            .thumbnail {
+                cursor: pointer;
+                transition: transform 0.3s;
+            }
+
+            .enfocada {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+            }
+
+            .enfocada img {
+                width: 80%;
+                height: auto;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.image(imagen_url, caption="Haz clic para ampliar", use_column_width=True, output_format="auto", key="thumbnail", format="JPEG")
+
+    st.markdown(f"""
+        <div class="enfocada" onclick="cerrarAmpliacion(this)">
+            <img src="" alt="Imagen Ampliada">
+        </div>
+
+        <script>
+            function ampliarImagen(img) {{
+                var imgSrc = img.src;
+                var modal = document.querySelector('.enfocada');
+                var modalImg = modal.querySelector('img');
+                modalImg.src = imgSrc;
+                modal.style.display = 'flex';
+            }}
+
+            function cerrarAmpliacion(modal) {{
+                modal.style.display = 'none';
+            }}
+            
+            // Agregar evento de clic a la miniatura
+            document.querySelector('.thumbnail').addEventListener('click', function() {{
+                ampliarImagen(this);
+            }});
+        </script>
+    """, unsafe_allow_html=True)
 
 st.write("#")
 
@@ -126,6 +177,8 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 200)
     with col59:
         centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 200)
+
+imagen_ampliada("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg")
         
 
 
