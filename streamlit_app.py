@@ -121,14 +121,14 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
     with col53:
-        st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align:center; color: white'>Daily task manager</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg" width="200">'
+            f'<img src="https://i.postimg.cc/nV2gJdbG/tareas001.jpg" width="200">'
             f'</div>',
             unsafe_allow_html=True
         )
-        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/tareas'>Link</a></h5>", unsafe_allow_html=True)
     with col54:
         st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
         st.markdown(
