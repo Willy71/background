@@ -86,7 +86,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 with st.container():
     col6, col7 = st.columns(2)
     with col6:
-        st.markdown("<h1 style='text-align: center; color: white'>Objective</h1>", unsafe_allow_html=True)
+        #st.markdown("<h1 style='text-align: center; color: white'>Objective</h1>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center; color: white'>Welcome to my website, which focuses on showcasing my work. The goal is for them to be able to evaluate my performance and skills. Python, SQL, Excel, Power BI, Streamlit will be the most used in my work.</h4>", unsafe_allow_html=True)
         #st.write(
             #"[Work done with Streamlit >](https://uberviajes.streamlit.app/)")
