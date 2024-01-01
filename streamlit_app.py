@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 import base64
+from io import BytesIO
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -79,6 +80,37 @@ def imagen_ampliada(imagen_url):
                 height: auto;
             }
         </style>
+    """, unsafe_allow_html=True)
+
+    # Cargar la imagen desde la URL utilizando Pillow
+    imagen = Image.open(BytesIO(requests.get(imagen_url).content))
+
+    # Mostrar la imagen con Streamlit
+    st.image(imagen, caption="Haz clic para ampliar", use_column_width=True, output_format="auto", key="thumbnail", format="JPEG")
+
+    st.markdown("""
+        <div class="enfocada" onclick="cerrarAmpliacion(this)">
+            <img src="" alt="Imagen Ampliada">
+        </div>
+
+        <script>
+            function ampliarImagen(img) {
+                var imgSrc = img.src;
+                var modal = document.querySelector('.enfocada');
+                var modalImg = modal.querySelector('img');
+                modalImg.src = imgSrc;
+                modal.style.display = 'flex';
+            }
+
+            function cerrarAmpliacion(modal) {
+                modal.style.display = 'none';
+            }
+            
+            // Agregar evento de clic a la miniatura
+            document.querySelector('.thumbnail').addEventListener('click', function() {
+                ampliarImagen(this);
+            });
+        </script>
     """, unsafe_allow_html=True)
 
     # Utiliza st.markdown para insertar la imagen con HTML
