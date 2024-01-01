@@ -119,14 +119,13 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 200)
     with col56:
         centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 200)
-    #with col57:
-        
-    
-# https://i.postimg.cc/qqrT5gKB/Hotel001.jpg Hotel https://hotelservice.streamlit.app/
-# https://i.postimg.cc/SNZBWggx/super001.jpg Supermarket https://github.com/Willy71/supermercados
-# https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg Parking https://github.com/Willy71/parking
-# https://i.postimg.cc/qqJFKKnK/lavajato.jpg Washcar https://github.com/Willy71/washcar
-# https://i.postimg.cc/nV2gJdbG/tareas001.jpg Tasks https://github.com/Willy71/tareas
+    with col57:
+        centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200)
+    with col58:
+        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 200)
+    with col59:
+        centrar_imagen_link("https://i.postimg.cc/qqJFKKnK/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 200)
+
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
