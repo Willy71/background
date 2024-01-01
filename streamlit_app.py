@@ -29,16 +29,6 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
         unsafe_allow_html=True
     )
 
-
-def centrar_imagen_link(imagen, link, nombre, ancho):
-    st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="{imagen}" width="{ancho}">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-    st.markdown(f"<h5 style='text-align: center;'><a href='{link}'>{nombre}</a></h5>", unsafe_allow_html=True)  
-
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
