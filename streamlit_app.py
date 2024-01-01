@@ -10,14 +10,25 @@ st.set_page_config(
     layout="wide"
 )
 
-def centrar_imagen(imagen, ancho):
-    # Aplicar estilo CSS para centrar la imagen con Markdown
+def centrar_imagen_link(imagen, link, nombre, ancho):
     st.markdown(
-        f'<div style="display: flex; justify-content: center;">'
-        f'<img src="{imagen}" width="{ancho}">'
-        f'</div>',
+        f"""
+        <style>
+            .imagen-enlace {{
+                cursor: pointer;
+                transition: transform 0.3s;
+            }}
+        </style>
+        <div style="display: flex; justify-content: center;">
+            <a href="{link}" target="_blank">
+                <img class="imagen-enlace" src="{imagen}" width="{ancho}" alt="{nombre}">
+            </a>
+        </div>
+        <h5 style='text-align: center;'><a href='{link}' target="_blank">{nombre}</a></h5>
+        """,
         unsafe_allow_html=True
     )
+
 
 def centrar_imagen_link(imagen, link, nombre, ancho):
     st.markdown(
