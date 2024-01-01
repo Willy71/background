@@ -26,7 +26,7 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
             f'</div>',
             unsafe_allow_html=True
         )
-        st.markdown(f"<h5 style='text-align: center;'><a href='{link}'>{nombre}</a></h5>", unsafe_allow_html=True)  
+        st.markdown(f"<h5 style='text-align: center;'><a href='{link}'>'{nombre}'</a></h5>", unsafe_allow_html=True)  
 
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
