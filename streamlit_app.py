@@ -101,7 +101,7 @@ with st.container():
             f'</div>',
             unsafe_allow_html=True
         )
-        st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)        
+        st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Uber - New York</a></h5>", unsafe_allow_html=True)        
     with col51:
         st.markdown("<h5 style='text-align:center; color: white'>Study Case Coursera</h5>", unsafe_allow_html=True)
         st.markdown(
