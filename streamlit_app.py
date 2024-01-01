@@ -111,7 +111,7 @@ with st.container():
     with col53:
         centrar_imagen_link("https://i.postimg.cc/nV2gJdbG/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)
     with col54:
-        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 220)
+        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 215)
     
 with st.container():    
     col55, col56, col57, col58, col59 = st.columns(5)
