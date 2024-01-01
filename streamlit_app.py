@@ -123,7 +123,7 @@ with st.container():
 with st.container():    
     col55, col56, col57, col58, col59 = st.columns(5)
     with col55:
-        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 215)     
+        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
     with col56:
         centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
     with col57:
