@@ -10,6 +10,10 @@ st.set_page_config(
     layout="wide"
 )
 
+def photo_link(alt_text, img_url, link_url, img_width):
+    markdown_code = f'<a href="{link_url}" target="_blank"><img src="{img_url}" alt="{alt_text}" width="{img_width}"></a>'
+    st.markdown(markdown_code, unsafe_allow_html=True)
+
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
