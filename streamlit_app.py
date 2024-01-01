@@ -143,12 +143,10 @@ with st.container():
         st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
     with col58:
          st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
+        st.markdown(f'<div style="display: flex; justify-content: center;">'
+                    f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
+                    f'</div>',
+                    unsafe_allow_html=True)
         st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
     
 # https://i.postimg.cc/qqrT5gKB/Hotel001.jpg Hotel https://hotelservice.streamlit.app/
