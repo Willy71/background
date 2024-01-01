@@ -81,6 +81,34 @@ def imagen_ampliada(imagen_url):
         </style>
     """, unsafe_allow_html=True)
 
+    # Utiliza st.markdown para insertar la imagen con HTML
+    st.markdown(f'<img class="thumbnail" src="{imagen_url}" alt="Imagen" onclick="ampliarImagen(this)">', unsafe_allow_html=True)
+
+    st.markdown("""
+        <div class="enfocada" onclick="cerrarAmpliacion(this)">
+            <img src="" alt="Imagen Ampliada">
+        </div>
+
+        <script>
+            function ampliarImagen(img) {{
+                var imgSrc = img.src;
+                var modal = document.querySelector('.enfocada');
+                var modalImg = modal.querySelector('img');
+                modalImg.src = imgSrc;
+                modal.style.display = 'flex';
+            }}
+
+            function cerrarAmpliacion(modal) {{
+                modal.style.display = 'none';
+            }}
+            
+            // Agregar evento de clic a la miniatura
+            document.querySelector('.thumbnail').addEventListener('click', function() {{
+                ampliarImagen(this);
+            }});
+        </script>
+    """, unsafe_allow_html=True)
+
     st.image(imagen_url, caption="Haz clic para ampliar", use_column_width=True, output_format="auto", key="thumbnail", format="JPEG")
 
     st.markdown(f"""
