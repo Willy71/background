@@ -117,7 +117,7 @@ with st.container():
     with col53:
         centrar_imagen_link("https://i.postimg.cc/qqJFKKnK/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 175)
     with col54:
-        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 165)
+        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 160)
         
     
 with st.container():    
