@@ -93,7 +93,7 @@ st.text("")
 
 with st.container():    
     col50, col51, col52, col53, col54 = st.columns(5)
-    with col51:
+    with col50:
         st.markdown("<h5 style='text-align:center; color: white'>Uber - New York</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -102,7 +102,7 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)        
-    with col52:
+    with col51:
         st.markdown("<h5 style='text-align:center; color: white'>Study Case Coursera</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
@@ -111,7 +111,25 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://www.kaggle.com/code/willycerato/case-study-cyclistic-python'>Link</a></h5>", unsafe_allow_html=True)
-    with col53:
+    with col52:
+        st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg" width="200">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
+     with col53:
+        st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg" width="200">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
+     with col54:
         st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
