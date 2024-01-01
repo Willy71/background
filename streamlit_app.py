@@ -122,11 +122,7 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 200)
     with col59:
         centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 200)
-
-imagen_ampliada("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg")
-        
-
-
+      
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 centrar_texto("About me", 1, "white")
