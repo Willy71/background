@@ -122,9 +122,9 @@ with st.container():
     with col57:
         centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200)
     with col58:
-        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 200)
+        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 170)
     with col59:
-        centrar_imagen_link("https://i.postimg.cc/qqJFKKnK/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 200)
+        centrar_imagen_link("https://i.postimg.cc/qqJFKKnK/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 180)
 
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
