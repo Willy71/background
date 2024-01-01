@@ -105,11 +105,11 @@ with st.container():
     with col50:
         centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)        
     with col51:
-        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 200)
+        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)
     with col52:
         centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)
     with col53:
-        centrar_imagen_link("https://i.postimg.cc/nV2gJdbG/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 200)
+        centrar_imagen_link("https://i.postimg.cc/nV2gJdbG/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)
     with col54:
         centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 220)
     
