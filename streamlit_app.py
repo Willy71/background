@@ -103,72 +103,23 @@ st.text("")
 with st.container():    
     col50, col51, col52, col53, col54 = st.columns(5)
     with col50:
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://uberviajes.streamlit.app/'>Uber - New York</a></h5>", unsafe_allow_html=True)        
+        centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 200)        
     with col51:
-        st.markdown("<h5 style='text-align:center; color: white'>Study Case Coursera</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://www.kaggle.com/code/willycerato/case-study-cyclistic-python'>Link</a></h5>", unsafe_allow_html=True)
+        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 200)
     with col52:
-        st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
+        centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)
     with col53:
-        st.markdown("<h5 style='text-align:center; color: white'>Daily task manager</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/nV2gJdbG/tareas001.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/tareas'>Link</a></h5>", unsafe_allow_html=True)
+        centrar_imagen_link("https://i.postimg.cc/nV2gJdbG/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 200)
     with col54:
         centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 200)
-        #st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
-        #st.markdown(
-        #    f'<div style="display: flex; justify-content: center;">'
-        #    f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
-        #    f'</div>',
-        #    unsafe_allow_html=True
-        #)
-        #st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Hotel</a></h5>", unsafe_allow_html=True)
     
 with st.container():    
-    col55, col56, col57, col58 = st.columns(4)
+    col55, col56, col57, col58, col59 = st.columns(5)
+    with col55:
+        centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 200)
     with col56:
-        st.markdown("<h5 style='text-align:center; color: white'>Fifa 2023</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/bv5pP5T8/fifa2023.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://jugadores2023.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
-    with col57:
-        st.markdown("<h5 style='text-align:center; color: white'>Soccer Argentina</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/wTSwXgS5/preserntation.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
-    #with col58:
+        centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 200)
+    #with col57:
         
     
 # https://i.postimg.cc/qqrT5gKB/Hotel001.jpg Hotel https://hotelservice.streamlit.app/
