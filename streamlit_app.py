@@ -19,6 +19,15 @@ def centrar_imagen(imagen, ancho):
         unsafe_allow_html=True
     )
 
+def centrar_imagen_link(imagen, link, nombre, ancho):
+    st.markdown(
+            f'<div style="display: flex; justify-content: center;">'
+            f'<img src="{imagen}" width="{ancho}">'
+            f'</div>',
+            unsafe_allow_html=True
+        )
+        st.markdown(f"<h5 style='text-align: center;'><a href='{link}'>{nombre}</a></h5>", unsafe_allow_html=True)  
+
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
@@ -94,7 +103,6 @@ st.text("")
 with st.container():    
     col50, col51, col52, col53, col54 = st.columns(5)
     with col50:
-        st.markdown("<h5 style='text-align:center; color: white'>Uber - New York</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
             f'<img src="https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg" width="200">'
@@ -130,14 +138,15 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/tareas'>Link</a></h5>", unsafe_allow_html=True)
     with col54:
-        st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
+        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 200)
+        #st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
+        #st.markdown(
+        #    f'<div style="display: flex; justify-content: center;">'
+        #    f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
+        #    f'</div>',
+        #    unsafe_allow_html=True
+        #)
+        #st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Hotel</a></h5>", unsafe_allow_html=True)
     
 with st.container():    
     col55, col56, col57, col58 = st.columns(4)
