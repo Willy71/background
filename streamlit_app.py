@@ -130,14 +130,14 @@ with st.container():
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/tareas'>Link</a></h5>", unsafe_allow_html=True)
     with col54:
-        st.markdown("<h5 style='text-align:center; color: white'>Web page with Python</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg" width="200">'
+            f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
             f'</div>',
             unsafe_allow_html=True
         )
-        st.markdown("<h5 style='text-align: center;'><a href='https://github.com/Willy71/background/'>Link</a></h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
     
 with st.container():    
     col55, col56, col57, col58 = st.columns(4)
@@ -159,15 +159,8 @@ with st.container():
             unsafe_allow_html=True
         )
         st.markdown("<h5 style='text-align: center;'><a href='https://futbolargentino.streamlit.app'>Link</a></h5>", unsafe_allow_html=True)
-    with col58:
-        st.markdown("<h5 style='text-align:center; color: white'>Hotel</h5>", unsafe_allow_html=True)
-        st.markdown(
-            f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/qqrT5gKB/Hotel001.jpg" width="200">'
-            f'</div>',
-            unsafe_allow_html=True
-        )
-        st.markdown("<h5 style='text-align: center;'><a href='https://hotelservice.streamlit.app/'>Link</a></h5>", unsafe_allow_html=True)
+    #with col58:
+        
     
 # https://i.postimg.cc/qqrT5gKB/Hotel001.jpg Hotel https://hotelservice.streamlit.app/
 # https://i.postimg.cc/SNZBWggx/super001.jpg Supermarket https://github.com/Willy71/supermercados
