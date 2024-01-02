@@ -42,6 +42,25 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
         unsafe_allow_html=True
     )
 
+def centrar_imagen_link_2(imagen, link, nombre, ancho):
+    st.markdown(
+        f"""
+        <style>
+            .imagen-enlace {{
+                cursor: pointer;
+                transition: transform 0.3s;
+            }}
+        </style>
+        <div style="display: flex; justify-content: center;">
+            <a"{imagen}" target="_blank">
+                <img class="imagen-enlace" src="{imagen}" width="{ancho}" alt="{nombre}">
+            </a>
+        </div>
+        <h5 style='text-align: center;'><a href='{link}' target="_blank">{nombre}</a></h5>
+        """,
+        unsafe_allow_html=True
+    )
+
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
@@ -207,19 +226,19 @@ st.title("")
 with st.container():    
     col41, col42, col43 = st.columns(3)
     with col41:
-        centrar_imagen_link("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", "https://www.kaggle.com/willycerato", "Kaggle", 80)
+        centrar_imagen_link_2("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", "https://www.kaggle.com/willycerato", "Kaggle", 80)
     with col42:
-        centrar_imagen_link("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", "https://github.com/Willy71", "Github", 80)
+        centrar_imagen_link_2("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", "https://github.com/Willy71", "Github", 80)
     with col43:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", "https://www.instagram.com/willycerato", "Instagram", 80)
+        centrar_imagen_link_2("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", "https://www.instagram.com/willycerato", "Instagram", 80)
     st.caption("")
     col44, col45, col46 = st.columns(3)
     with col44:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", "https://www.facebook.com/guillermo.cerato", "Facebook", 80)
+        centrar_imagen_link_2("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", "https://www.facebook.com/guillermo.cerato", "Facebook", 80)
     with col45:
-        centrar_imagen_link("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", "https://www.linkedin.com/in/willycerato", "Linkedin", 80)        
+        centrar_imagen_link_2("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", "https://www.linkedin.com/in/willycerato", "Linkedin", 80)        
     with col46:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", "https://wa.me/5542991657847", "Whatsapp", 80)
+        centrar_imagen_link_2("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", "https://wa.me/5542991657847", "Whatsapp", 80)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
