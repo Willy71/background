@@ -52,9 +52,7 @@ def centrar_imagen_link_2(imagen, link, nombre, ancho):
             }}
         </style>
         <div style="display: flex; justify-content: center;">
-            <a"{imagen}" target="_blank">
-                <img class="imagen-enlace" src="{imagen}" width="{ancho}" alt="{nombre}">
-            </a>
+            <img class="imagen-enlace" src="{imagen}" width="{ancho}" alt="{nombre}">
         </div>
         <h5 style='text-align: center;'><a href='{link}' target="_blank">{nombre}</a></h5>
         """,
