@@ -157,7 +157,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 
 centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
-
+st.title("#")
 with st.container():
     col201, col202, col203, col204 = st.columns([1,2,1,3])
     with col202:
