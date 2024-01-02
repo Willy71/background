@@ -138,10 +138,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 
 centrar_texto("About me", 3, "white")
 
-centrar_texto('Argentine resident in Brazil since 2016, I am a family man with a Brazilian wife, Samella, and two children, 
-                Benício Luca and Ester Valentina. Professionally I have diverse experiences, mainly in tourism as a
-                micro-entrepreneur and running Lupita Hostel e Pousada in Maceió. Later I ventured into making and selling
-                alfajores during and after the pandemic, displayed at @alfajor.milagros on Instagram.', 6, 'white')
+centrar_texto('Argentine resident in Brazil since 2016, I am a family man with a Brazilian wife, Samella, and two children, Benício Luca and Ester Valentina. Professionally I have diverse experiences, mainly in tourism as a micro-entrepreneur and running Lupita Hostel e Pousada in Maceió. Later I ventured into making and selling alfajores during and after the pandemic, displayed at @alfajor.milagros on Instagram.', 6, 'white')
 st.title("#")
 centrar_texto('My previous career in Argentina involved sales at Unifon, including managing their sales team,', 6, 'white') 
 centrar_texto('and then at Parmalat as a supervisor. I joined Nokia in 2006 and worked as a field supervisor,', 6, 'white') 
