@@ -188,6 +188,7 @@ centrar_texto("and retailer training. He always showed himself with professional
 centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
 st.title("")
 st.title("")
+st.markdown("[Agustín Valdes Marteles](https://www.linkedin.com/in/agustin-valdes-marteles-55273022/)")
 centrar_texto("Agustin Valdes Marteles - Make it happen", 4, 'lightblue')
 st.caption("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
