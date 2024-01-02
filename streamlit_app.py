@@ -214,7 +214,7 @@ with st.container():
         centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
     with col43:
         centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
-        centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 'white')
+        centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 ,'white')
     st.caption("")
     col44, col45, col46 = st.columns(3)
     with col44:
