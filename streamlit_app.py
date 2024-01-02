@@ -175,7 +175,7 @@ with st.container():
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
-centrar_texto("Recommendations", 1, "white")
+centrar_texto("Recommendations in Linkedin", 1, "white")
 centrar_texto('Maximiliano Roca Saran - Key account manager - Mobile phones', 4, 'lightblue')
 st.caption("")
 centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
@@ -197,8 +197,10 @@ centrar_texto("and retailer training. He always showed himself with professional
 centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
 st.title("")
 st.title("")
-st.markdown("<h3 style='text-align:left; color: white'>Agustin Valdes Marteles - Make it happen</h3>", unsafe_allow_html=True)
-centrar_texto("Excellent person and excellent professional. Very human and ideal for the position in which we share company. It has been a pleasure to work with him.", 7, "white")
+centrar_texto("Agustin Valdes Marteles - Make it happen", 4, 'lightblue')
+st.caption("")
+centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
+centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
