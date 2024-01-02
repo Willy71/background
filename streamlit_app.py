@@ -159,8 +159,8 @@ centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 
 with st.container():
-    col201, col202, col203, col204 = st.columns(4)
-    with col201:
+    col201, col202, col203, col204 = st.columns([1,2,1,3])
+    with col202:
         centrar_texto("Share data with the art of visualization", 7, "white")
         centrar_texto("Data analysis with R programming", 7, "white")
         centrar_texto("Analyze data to answer questions", 7, "white")
