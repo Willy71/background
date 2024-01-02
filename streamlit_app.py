@@ -205,7 +205,7 @@ st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_
 st.title("")
 
 with st.container():    
-    col40, col41, col42, col43, col44, col45, col46, col47 = st.columns(8)
+    col41, col42, col43, col44, col45, col46 = st.columns(6)
     with col41:
         photo_link("Kaggle", "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", "https://www.kaggle.com/willycerato", "50")
     with col42:
