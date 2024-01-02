@@ -46,6 +46,10 @@ def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
 
+def centrar_texto_link(link_texto, link_url, tamanho, color):
+    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
+    st.markdown(texto_html, unsafe_allow_html=True)
+
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
@@ -188,8 +192,9 @@ centrar_texto("and retailer training. He always showed himself with professional
 centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
 st.title("")
 st.title("")
-st.markdown("[Agustín Valdes Marteles](https://www.linkedin.com/in/agustin-valdes-marteles-55273022/)")
-centrar_texto("Agustin Valdes Marteles - Make it happen", 4, 'lightblue')
+
+centrar_texto_link("Agustin Valdes Marteles - Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
+
 st.caption("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
