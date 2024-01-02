@@ -194,7 +194,7 @@ centrar_texto("developing personnel for which he worked in a structured way thro
 centrar_texto("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
 centrar_texto("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
 centrar_texto("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
-centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 7, "white")", 6, "white")
+centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
 st.title("")
 st.title("")
 st.markdown("<h3 style='text-align:left; color: white'>Agustin Valdes Marteles - Make it happen</h3>", unsafe_allow_html=True)
