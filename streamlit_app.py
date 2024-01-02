@@ -213,15 +213,19 @@ with st.container():
         centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
         centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
     with col43:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", "https://www.instagram.com/willycerato", "Instagram", 80)
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
+        centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 'white')
     st.caption("")
     col44, col45, col46 = st.columns(3)
     with col44:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", "https://www.facebook.com/guillermo.cerato", "Facebook", 80)
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", 80)
+        centrar_texto_link("Facebook", "https://www.facebook.com/guillermo.cerato", 6, 'white')
     with col45:
-        centrar_imagen_link("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", "https://www.linkedin.com/in/willycerato", "Linkedin", 80)        
+        centrar_imagen("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", 80)
+        centrar_texto_link("Linkedin", "https://www.linkedin.com/in/willycerato",  6, 'white')
     with col46:
-        centrar_imagen_link("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", "https://wa.me/5542991657847", "Whatsapp", 80)
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
+        centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
