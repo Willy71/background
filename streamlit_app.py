@@ -177,13 +177,15 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
         
 centrar_texto("Recommendations", 1, "white")
 centrar_texto('Maximiliano Roca Saran - Key account manager - Mobile phones', 4, 'white')
+st.title("")
 centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
 centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
-
 st.title("")
-st.markdown("<h3 style='text-align:left; color: white'>Cristina Jacquemin - Accounts director - Grupo Solvens</h3>", unsafe_allow_html=True)
-centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 7, "white")
-
+st.title("")
+centrar_texto('Cristina Jacquemin - Accounts director - Grupo Solvens', 4, 'white')
+st.title("")
+centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
+st.title("")
 st.title("")
 st.markdown("<h3 style='text-align:left; color: white'>Ariel Smirnoff - Business coach</h3>", unsafe_allow_html=True) 
 centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented. Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility, and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 7, "white")
