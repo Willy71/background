@@ -176,8 +176,9 @@ with st.container():
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
 centrar_texto("Recommendations", 1, "white")
-st.markdown("<h3 style='text-align:left; color: white'>Maximiliano Roca Saran - Key account manager - Mobile phones</h3>", unsafe_allow_html=True)
-centrar_texto("Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented. He is a very good team builder. He is always willing to learn new things and change.", 7, "white")
+centrar_texto('Maximiliano Roca Saran - Key account manager - Mobile phones', 4, 'white')
+centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
+centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
 
 st.title("")
 st.markdown("<h3 style='text-align:left; color: white'>Cristina Jacquemin - Accounts director - Grupo Solvens</h3>", unsafe_allow_html=True)
