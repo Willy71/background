@@ -11,16 +11,26 @@ st.set_page_config(
     layout="wide"
 )
 
-def edad(fecha_nac):
+def es_bisiesto(anio):
+    return anio % 4 == 0 and (anio % 100 != 0 or anio % 400 == 0)
+    
+def calcular_edad(fecha_nac):
     nac = datetime.strptime(fecha_nac, '%d/%m/%Y')
     now = datetime.now()
-    edad_final = (now - nac).days // 365
-    return edad_final
+    
+    edad_dias = (now - nac).days
+    edad_anios = edad_dias // 365
 
-edad_willy = edad('14/02/1971')
-edad_benicio = edad('27/11/2020')
-edad_nacho = edad('11/03/1999')
-edad_ester = edad('21/12/2014')
+    # Corregir la edad si hay años bisiestos en el rango
+    for anio in range(nac.year, now.year + 1):
+        if es_bisiesto(anio):
+            edad_anios += 1
+    return edad_anios
+
+edad_willy = calcular_edad('14/02/1971')
+edad_benicio = calcular_edad('27/11/2020')
+edad_nacho = calcular_edad('11/03/1999')
+edad_ester = calcular_edad('21/12/2014')
 
 def photo_link(alt_text, img_url, link_url, img_width):
     markdown_code = f'<a href="{link_url}" target="_blank"><img src="{img_url}" alt="{alt_text}" width="{img_width}px"></a>'
