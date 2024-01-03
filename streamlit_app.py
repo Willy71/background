@@ -174,14 +174,14 @@ st.title("#")
 with st.container():
     col20, col21, col22, col23, col500 = st.columns([1,3.3,0.3,3.3,1])
     with col21:
-        centrar_texto("Fundamentals: Data, Data, Everywhere", 7, "white")
-        centrar_texto("Ask questions to make data-driven decisions", 7, "white")
-        centrar_texto("Prepare Data for Exploration", 7, "white")
-        centrar_texto("Process the data to clean it", 7, "white")
-        centrar_texto("Analyze data to answer questions", 7, "white")  
-        centrar_texto("Share data with the art of visualization", 7, "white")
-        centrar_texto("Data analysis with R programming", 7, "white")
-        centrar_texto("Google Data Analytics Final Project: Complete a Case Study", 7, "white")
+        centrar_texto("1- Fundamentals: Data, Data, Everywhere", 7, "white")
+        centrar_texto("2- Ask questions to make data-driven decisions", 7, "white")
+        centrar_texto("3- Prepare Data for Exploration", 7, "white")
+        centrar_texto("4- Process the data to clean it", 7, "white")
+        centrar_texto("5- Analyze data to answer questions", 7, "white")  
+        centrar_texto("6- Share data with the art of visualization", 7, "white")
+        centrar_texto("7- Data analysis with R programming", 7, "white")
+        centrar_texto("8- Google Data Analytics Final Project: Complete a Case Study", 7, "white")
 
     with col23:
         centrar_imagen_link("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 'https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP', 'Title link',  350)
