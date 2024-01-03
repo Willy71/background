@@ -95,7 +95,7 @@ with st.container():
     col00, col01 = st.columns(2)
     with col00:
         #st.markdown("<h1 style='text-align: center; color: white'>Objective</h1>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: white'>Welcome to my website, which focuses on showcasing my work. The goal is for them to be able to evaluate my performance and skills. Python, SQL, Excel, Power BI, Streamlit will be the most used in my work.</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: white'>Welcome to my website, which focuses on showcasing my work. The goal is for them to be able to evaluate my performance and skills. Python, SQL, Excel, Power BI, Streamlit, Storytelling and Django will be the most used in my work.</h4>", unsafe_allow_html=True)
         #st.write(
             #"[Work done with Streamlit >](https://uberviajes.streamlit.app/)")
     with col01:
