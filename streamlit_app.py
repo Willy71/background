@@ -239,12 +239,14 @@ with st.container():
         with col54:            
             st.text(" ")
             st.text(" ")
-            st.markdown(
-                f'<div style="display: flex; justify-content: center;">'
-                f'<img src="https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg" width="150">'
-                f'</div>',
-                unsafe_allow_html=True
-            )           
+            photo_link('', "https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg", 'https://streamlit.io/', 150)
+            
+            #st.markdown(
+                #f'<div style="display: flex; justify-content: center;">'
+                #f'<img src="https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg" width="150">'
+                #f'</div>',
+                #unsafe_allow_html=True
+            #)           
         with col56:
             st.markdown(
                 f'<div style="display: flex; justify-content: center;">'
