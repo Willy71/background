@@ -17,7 +17,7 @@ def edad(fecha_nac):
     edad_final = (now - nac).days // 365
     return edad_final
 
-edad_willy = edad('14/01/1971')
+edad_willy = edad('14/02/1971')
 edad_benicio = edad('27/11/2020')
 edad_nacho = edad('11/03/1999')
 edad_ester = edad('21/12/2014')
