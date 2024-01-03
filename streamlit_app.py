@@ -3,6 +3,7 @@ import requests
 from PIL import Image
 import base64
 from datetime import datetime
+from dateutil.relativedelta import relativedelta
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -11,20 +12,13 @@ st.set_page_config(
     layout="wide"
 )
 
-def es_bisiesto(anio):
-    return anio % 4 == 0 and (anio % 100 != 0 or anio % 400 == 0)
-    
 def calcular_edad(fecha_nac):
-    nac = datetime.strptime(fecha_nac, '%d/%m/%Y')
+    fecha_nac = datetime.strptime(fecha_nac, '%d/%m/%Y')
     now = datetime.now()
     
-    edad_dias = (now - nac).days
-    edad_anios = edad_dias // 365
+    diferencia = relativedelta(now, fecha_nac)
+    edad_anios = diferencia.years
 
-    # Corregir la edad si hay años bisiestos en el rango
-    for anio in range(nac.year, now.year + 1):
-        if es_bisiesto(anio):
-            edad_anios += 1
     return edad_anios
 
 edad_willy = calcular_edad('14/02/1971')
