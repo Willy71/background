@@ -20,7 +20,7 @@ def edad(fecha_nac):
 edad_willy = edad('14/01/1971')
 edad_benicio = edad('27/11/2020')
 edad_nacho = edad('11/03/1999')
-edad_ester = edad('21/12/2014)
+edad_ester = edad('21/12/2014')
 
 def photo_link(alt_text, img_url, link_url, img_width):
     markdown_code = f'<a href="{link_url}" target="_blank"><img src="{img_url}" alt="{alt_text}" width="{img_width}px"></a>'
