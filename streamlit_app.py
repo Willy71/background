@@ -140,7 +140,7 @@ with st.container():
       
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
-centrar_texto("About me", 3, "white")
+centrar_texto("About me", 1, "white")
 col30, col31, col32 = st.columns([1,6,1])
 with col31:
     centrar_texto('Argentine resident in Brazil since 2016, I am a family man with a Brazilian wife, Samella, and three children, Juan Ignacio, Benício Luca and Ester Valentina. Professionally I have diverse experiences, mainly in tourism as a micro-entrepreneur and running Lupita Hostel e Pousada in Maceió. Later I ventured into making and selling alfajores during and after the pandemic, displayed at @alfajor.milagros on Instagram.', 6, 'white')
