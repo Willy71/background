@@ -87,7 +87,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("<h3 style='text-align: center; color: white'>Data analyst and Python programmer</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>Data analyst and Python programmer</h1>", unsafe_allow_html=True)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
