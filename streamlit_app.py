@@ -240,20 +240,8 @@ with st.container():
             st.text(" ")
             st.text(" ")
             photo_link('', "https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg", 'https://streamlit.io/', 150)
-            
-            #st.markdown(
-                #f'<div style="display: flex; justify-content: center;">'
-                #f'<img src="https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg" width="150">'
-                #f'</div>',
-                #unsafe_allow_html=True
-            #)           
         with col56:
-            st.markdown(
-                f'<div style="display: flex; justify-content: center;">'
-                f'<img src="https://i.postimg.cc/1znXZvMw/python.png" width="150">'
-                f'</div>',
-                unsafe_allow_html=True
-            )           
+            photo_link('', "https://i.postimg.cc/1znXZvMw/python.png", 'https://www.python.org', 150)
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
