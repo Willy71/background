@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 import base64
+from datetime import datetime
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -9,6 +10,17 @@ st.set_page_config(
     page_icon="💻",
     layout="wide"
 )
+
+def edad(fecha_nac):
+    nac = datetime.strptime(fecha_nac, '%d/%m/%Y')
+    now = datetime.now()
+    edad_final = (now - nac).days // 365
+    return edad_final
+
+edad_willy = edad('14/01/1971')
+edad_benicio = edad('27/11/2020')
+edad_nacho = edad('11/03/1999')
+edad_ester = edad('21/12/2014)
 
 def photo_link(alt_text, img_url, link_url, img_width):
     markdown_code = f'<a href="{link_url}" target="_blank"><img src="{img_url}" alt="{alt_text}" width="{img_width}px"></a>'
@@ -143,7 +155,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 centrar_texto("About me", 1, "white")
 col30, col31, col32 = st.columns([1,6,1])
 with col31:
-    centrar_texto('Argentine resident in Brazil since 2016, I am a family man with a Brazilian wife, Samella, and three children, Juan Ignacio, Benício Luca and Ester Valentina. Professionally I have diverse experiences, mainly in tourism as a micro-entrepreneur and running Lupita Hostel e Pousada in Maceió. Later I ventured into making and selling alfajores during and after the pandemic, displayed at @alfajor.milagros on Instagram.', 6, 'white')
+    centrar_texto(f'Argentine resident in Brazil since 2016, I am a family man with a Brazilian wife, Samella, and three sons, Juan Ignacio ({edad_nacho} years old), Benício Luca and Ester Valentina. Professionally I have diverse experiences, mainly in tourism as a micro-entrepreneur and running Lupita Hostel e Pousada in Maceió. Later I ventured into making and selling alfajores during and after the pandemic, displayed at @alfajor.milagros on Instagram.', 6, 'white')
     st.title("#")
     centrar_texto('My previous career in Argentina involved sales at Unifon, including managing their sales team, and then at Parmalat as a supervisor. I joined Nokia in 2006 and worked as a field supervisor, supervising a team, organizing events and participating in sales and commercial management.', 6, 'white')
     st.title("#")
