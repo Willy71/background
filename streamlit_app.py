@@ -172,7 +172,7 @@ centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 st.title("#")
 with st.container():
-    col20, col21, col22, col23, col500 = st.columns([2,3,0.3,3,2])
+    col20, col21, col22, col23, col500 = st.columns([1.5,3,0.3,3,1.5])
     with col21:
         centrar_texto("Fundamentals: Data, Data, Everywhere", 7, "white")
         centrar_texto("Ask questions to make data-driven decisions", 7, "white")
