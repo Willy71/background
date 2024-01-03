@@ -15,7 +15,8 @@ st.set_page_config(
 def calcular_edad(fecha_nac):
     fecha_nac = datetime.strptime(fecha_nac, '%d/%m/%Y')
     now = datetime.now()
-    
+    # Al usar relativedelta, se tienen en cuenta los años bisiestos para calcular edad
+    # La otra forma es hacerlo con deltamime y dividir por 365, pero no es un calculo exacto
     diferencia = relativedelta(now, fecha_nac)
     edad_anios = diferencia.years
 
