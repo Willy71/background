@@ -97,8 +97,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 #st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
-centrar_imagen('https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png', 2200)
-# Imagen anterior de portada https://i.postimg.cc/ry1CPRMy/willy-004.png
+centrar_imagen('https://i.postimg.cc/ry1CPRMy/willy-004.png', 300)
+# Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
 st.markdown("<h1 style='text-align: center; color: white'>Data analyst and Python programmer</h1>", unsafe_allow_html=True)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
