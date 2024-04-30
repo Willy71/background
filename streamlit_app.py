@@ -126,7 +126,7 @@ st.text("")
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
     with col10:
-        centrar_imagen_link("https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)       
+        centrar_imagen_link("https://i.postimg.cc/sX3TZ38w/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)       
     with col11:
         centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col12:
