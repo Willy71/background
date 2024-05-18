@@ -186,7 +186,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 centrar_texto("Recommendations in Linkedin", 1, "white")
 
 with st.container():    
-    col301, col302 = st.columns([1,4])
+    col301, col302 = st.columns(2)
     with col301:
         centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 40)
     with col302:
