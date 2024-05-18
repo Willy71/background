@@ -92,7 +92,7 @@ st.write("#")
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://i.postimg.cc/FzLQT0NN/Encabezado-nombre.png" width="320">'
+    f'<img src="https://i.postimg.cc/MZV6b8TR/Encabezado-nombre-removebg-preview.png" width="320">'
     f'</div>',
     unsafe_allow_html=True
 )
