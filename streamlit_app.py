@@ -113,7 +113,7 @@ with st.container():
     with col01:
         st.markdown(
             f'<div style="display: flex; justify-content: center;">'
-            f'<img src="https://i.postimg.cc/TPvkg31s/programmer.jpg" width="300">'
+            f'<img src="https://i.postimg.cc/SKH4CZbD/laptop.jpg", width="300">'
             f'</div>',
             unsafe_allow_html=True
         )
