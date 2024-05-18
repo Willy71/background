@@ -228,7 +228,7 @@ with st.container():
     col313, col314, col315, col316 = st.columns([0.5,1,2,0.5])
     with col314:
         centrar_imagen("https://i.postimg.cc/Y9WxCxH5/ariel-remove.png", 150)
-    with col311:
+    with col315:
         centrar_texto_link("Ariel Smirnoff - Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
