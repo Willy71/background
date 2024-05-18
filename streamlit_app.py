@@ -204,6 +204,7 @@ st.title("")
 with st.container():
     col305, col306, col307, col308 = st.columns([0.5,1,2,0.5])
     with col306:
+        st.caption("")
         centrar_imagen("https://i.postimg.cc/J41hr43x/maxi-remove.png", 150)
     with col307:
         centrar_texto_link('Maximiliano Roca Saran - Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
