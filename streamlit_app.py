@@ -225,7 +225,7 @@ st.title("")
 st.title("")
 
 with st.container():
-    col313, col314, col315, col316 = st.columns([0.5,1,2,0.5])
+    col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
     with col314:
         centrar_imagen("https://i.postimg.cc/Y9WxCxH5/ariel-remove.png", 150)
     with col315:
