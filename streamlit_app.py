@@ -146,9 +146,9 @@ with st.container():
     with col17:
         centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col18:
-        centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
+        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
     with col19:
-        centrar_imagen_link("https://i.postimg.cc/bv5pP5T8/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
+        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
       
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
