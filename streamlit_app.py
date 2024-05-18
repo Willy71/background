@@ -207,7 +207,8 @@ with st.container():
     with col306:
         centrar_imagen("https://i.postimg.cc/J41hr43x/maxi-remove.png", 150)
     with col307:
-        centrar_texto_link('Maximiliano Roca Saran - Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
+        centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
+        centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
 st.caption("")
 centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
 centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
@@ -219,7 +220,8 @@ with st.container():
     with col310:
         centrar_imagen("https://i.postimg.cc/qMt5C2Gv/cristina-remove.png", 150)
     with col311:
-        centrar_texto_link('Cristina Jacquemin - Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
+        centrar_texto_link('Cristina Jacquemin', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
+        centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
 st.title("")
@@ -230,7 +232,8 @@ with st.container():
     with col314:
         centrar_imagen("https://i.postimg.cc/Y9WxCxH5/ariel-remove.png", 150)
     with col315:
-        centrar_texto_link("Ariel Smirnoff - Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
+        centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
+        centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
 centrar_texto("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
@@ -246,7 +249,8 @@ with st.container():
     with col318:
         centrar_imagen("https://i.postimg.cc/MHrZ31cG/agustin-remove.png", 150)
     with col319:
-        centrar_texto_link("Agustin Valdes Marteles - Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
+        centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
+        centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
