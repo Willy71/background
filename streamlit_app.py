@@ -212,7 +212,13 @@ centrar_texto('Guillermo is an excellent manager, always predisposed, very focus
 centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
 st.title("")
 st.title("")
-centrar_texto_link('Cristina Jacquemin - Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
+
+with st.container():
+    col309, col310, col311, col312 = st.columns([0.5,1,2,0.5])
+    with col310:
+        centrar_imagen("https://i.postimg.cc/qMt5C2Gv/cristina-remove.png", 150)
+    with col311:
+        centrar_texto_link('Cristina Jacquemin - Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
 st.title("")
