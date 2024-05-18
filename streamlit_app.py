@@ -70,7 +70,7 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/J7Qkwt4s/pxfuel-1.jpg");
+background-image: url("https://i.postimg.cc/B686GL4w/pxfuel-1.jpg");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
@@ -92,12 +92,12 @@ st.write("#")
 
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://i.postimg.cc/ZnZ99gWf/Encabezado-nombre-removebg-preview.png" width="320">'
+    f'<img src="https://i.postimg.cc/FzLQT0NN/Encabezado-nombre.png" width="320">'
     f'</div>',
     unsafe_allow_html=True
 )
 #st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
-centrar_imagen('https://i.postimg.cc/ry1CPRMy/willy-004.png', 300)
+centrar_imagen('https://i.postimg.cc/m2Wr0gq8/001.jpg', 300)
 # Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
 st.markdown("<h1 style='text-align: center; color: white'>Data analyst and Python programmer</h1>", unsafe_allow_html=True)
 
