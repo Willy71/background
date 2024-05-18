@@ -186,9 +186,9 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 centrar_texto("Recommendations in Linkedin", 1, "white")
 
 with st.container():    
-    col301, col302 = st.columns(2)
+    col301, col302 = st.columns([2,6])
     with col301:
-        centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 40)
+        centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 80)
     with col302:
         centrar_texto_link('Rodrigo Campos - Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
 st.caption("")
