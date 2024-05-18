@@ -128,19 +128,19 @@ with st.container():
     with col10:
         centrar_imagen_link("https://i.postimg.cc/sX3TZ38w/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)       
     with col11:
-        centrar_imagen_link("https://i.postimg.cc/SNZBWggx/super001.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
+        centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col12:
-        centrar_imagen_link("https://i.postimg.cc/nV2gJdbG/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)
+        centrar_imagen_link("https://i.postimg.cc/0yJcrZZ8/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)
     with col13:
-        centrar_imagen_link("https://i.postimg.cc/qqJFKKnK/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 175)
+        centrar_imagen_link("https://i.postimg.cc/nrR09P6L/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 175)
     with col14:
-        centrar_imagen_link("https://i.postimg.cc/K8wCWRSX/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 160)
+        centrar_imagen_link(https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg", 'https://github.com/Willy71/parking', "Parking", 160)
         
     
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col15:
-        centrar_imagen_link("https://i.postimg.cc/qqrT5gKB/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
+        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
     with col16:
         centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
     with col17:
