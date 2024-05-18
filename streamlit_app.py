@@ -142,9 +142,9 @@ with st.container():
     with col15:
         centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
     with col16:
-        centrar_imagen_link("https://i.postimg.cc/wBwg9KZY/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
+        centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
     with col17:
-        centrar_imagen_link("https://i.postimg.cc/wxZdC9Zf/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
+        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col18:
         centrar_imagen_link("https://i.postimg.cc/wTSwXgS5/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
     with col19:
@@ -262,9 +262,9 @@ with st.container():
         with col54:            
             st.text(" ")
             st.text(" ")
-            photo_link('', "https://i.postimg.cc/vTVs74BG/streamlit-logo.jpg", 'https://streamlit.io/', 150)
+            photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 150)
         with col56:
-            photo_link('', "https://i.postimg.cc/1znXZvMw/python.png", 'https://www.python.org', 150)
+            photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 150)
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
