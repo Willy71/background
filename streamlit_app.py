@@ -206,7 +206,7 @@ with st.container():
     with col306:
         centrar_imagen("https://i.postimg.cc/J41hr43x/maxi-remove.png", 150)
     with col307:
-        centrar_texto_link('Maximiliano Roca Saran - Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
+        centrar_texto_link('                                                        Maximiliano Roca Saran - Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
 st.caption("")
 centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
 centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
