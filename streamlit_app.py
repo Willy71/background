@@ -190,8 +190,8 @@ with st.container():
     with col302:
         centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 150)
     with col303:
-        centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
-        centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
+        centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
+        centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
 st.caption("")
 centrar_texto("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
 centrar_texto(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
