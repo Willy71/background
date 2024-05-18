@@ -179,7 +179,7 @@ with st.container():
         centrar_texto("8- Google Data Analytics Final Project: Complete a Case Study", 7, "white")
 
     with col23:
-        centrar_imagen_link("https://i.postimg.cc/nrSXrRzC/Titulo-coursera.jpg", 'https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP', 'Title link',  350)
+        centrar_imagen_link("https://i.postimg.cc/zG347njM/Titulo-coursera.jpg", 'https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP', 'Title link',  350)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
