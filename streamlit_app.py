@@ -240,8 +240,12 @@ centrar_texto("expanded the area. Collaborators also emerged who were able to gr
 st.title("")
 st.title("")
 
-centrar_texto_link("Agustin Valdes Marteles - Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
-
+with st.container():
+    col317, col318, col319, col320 = st.columns([0.5,1,2,0.5])
+    with col318:
+        centrar_imagen("https://i.postimg.cc/MHrZ31cG/agustin-remove.png", 150)
+    with col319:
+        centrar_texto_link("Agustin Valdes Marteles - Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
 st.caption("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
