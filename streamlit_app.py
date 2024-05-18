@@ -185,8 +185,12 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
         
 centrar_texto("Recommendations in Linkedin", 1, "white")
 
-centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 120)
-centrar_texto_link('Rodrigo Campos - Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
+with st.container():
+    col301, col302 = st.columns([1,3])
+    with col301:
+        centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 120)
+    with col302:
+        centrar_texto_link('Rodrigo Campos - Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/maximiliano-roca-saran-0b628421/", 4, 'lightblue')
 st.caption("")
 centrar_texto("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
 centrar_texto(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
