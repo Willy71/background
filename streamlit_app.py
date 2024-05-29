@@ -187,7 +187,7 @@ with st.container():
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
 centrar_texto("Recommendations in Linkedin", 1, "white")
-st.text("")
+st.caption("")
 with st.container():
     col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
     with col302:
@@ -202,7 +202,7 @@ centrar_texto("He possesses the unique ability to extract actionable insights fr
 centrar_texto("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
 centrar_texto("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
 centrar_texto("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
-st.caption("")
+st.title("")
 
 with st.container():
     col305, col306, col307, col308 = st.columns([0.5,1,1.5,1])
