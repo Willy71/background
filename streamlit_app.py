@@ -121,7 +121,21 @@ with st.container():
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
-st.text("")
+
+st.text("")with st.container():    
+    col15, col16, col17, col18, col19 = st.columns(5)
+    with col15:
+        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
+    with col19:
+        centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
+    with col18:
+        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
+    with col17:
+        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
+    with col18:
+        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
+
+
 
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
@@ -135,21 +149,7 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/nrR09P6L/lavajato.jpg", 'https://github.com/Willy71/washcar', "Washcar", 175)
     with col14:
         centrar_imagen_link('https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg', 'https://github.com/Willy71/parking', "Parking", 160)
-        
-    
-with st.container():    
-    col15, col16, col17, col18, col19 = st.columns(5)
-    with col15:
-        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
-    with col16:
-        centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
-    with col17:
-        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
-    with col18:
-        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
-    with col19:
-        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
-      
+              
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 centrar_texto("About me", 1, "white")
