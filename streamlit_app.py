@@ -122,7 +122,9 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 
 st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
 
-st.text("")with st.container():    
+st.text("")
+
+with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col15:
         centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "https://hotelservice.streamlit.app/", "hotel", 205)     
