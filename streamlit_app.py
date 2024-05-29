@@ -134,7 +134,7 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col17:
         centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
-    with col18:
+    with col16:
         centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
 
 
