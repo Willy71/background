@@ -124,7 +124,7 @@ centrar_texto("About me", 1, "white")
 
 col30, col31, col32 = st.columns([1,6,1])
 with col31:
-    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió.', 6, 'white')
+    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió. I am currently working as a freelancer on the Upwork platform as well as custom work for clients in my city.', 6, 'white')
     st.text("")
     centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 6, 'white')
     st.text("")
