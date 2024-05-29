@@ -187,7 +187,7 @@ with st.container():
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
         
 centrar_texto("Recommendations in Linkedin", 1, "white")
-
+st.text("")
 with st.container():
     col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
     with col302:
@@ -195,15 +195,14 @@ with st.container():
     with col303:
         centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
         centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
-st.caption("")
+st.text("")
 centrar_texto("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
 centrar_texto(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
 centrar_texto("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 6, "white")  
 centrar_texto("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
 centrar_texto("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
 centrar_texto("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
-st.title("")
-st.title("")
+st.caption("")
 
 with st.container():
     col305, col306, col307, col308 = st.columns([0.5,1,1.5,1])
@@ -212,11 +211,10 @@ with st.container():
     with col307:
         centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
         centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
-st.caption("")
+st.text("")
 centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
 centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
-st.title("")
-st.title("")
+st.caption("")
 
 with st.container():
     col309, col310, col311, col312 = st.columns([0.5,1,1.5,1])
@@ -225,10 +223,9 @@ with st.container():
     with col311:
         centrar_texto_link('Cristina Jacquemin', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
         centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
-st.caption("")
+st.text("")
 centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
-st.title("")
-st.title("")
+st.caption("")
 
 with st.container():
     col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
@@ -237,15 +234,14 @@ with st.container():
     with col315:
         centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
         centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
-st.caption("")
+st.text("")
 centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
 centrar_texto("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
 centrar_texto("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
 centrar_texto("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
 centrar_texto("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
 centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
-st.title("")
-st.title("")
+st.caption("")
 
 with st.container():
     col317, col318, col319, col320 = st.columns([0.5,1,1.5,1])
@@ -254,7 +250,7 @@ with st.container():
     with col319:
         centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
         centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
-st.caption("")
+st.text("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
 
