@@ -253,11 +253,12 @@ with st.container():
 st.text("")
 centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
+st.title("")
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
-st.title("")
+st.text("")
 
 with st.container():    
     col41, col42, col43 = st.columns(3)
