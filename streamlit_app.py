@@ -101,6 +101,16 @@ centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
 # Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
 st.markdown("<h1 style='text-align: center; color: white'>Data analyst and Python programmer</h1>", unsafe_allow_html=True)
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)centrar_texto("About me", 1, "white")
+
+col30, col31, col32 = st.columns([1,6,1])
+with col31:
+    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió.', 6, 'white')
+    st.text("")
+    centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 6, 'white')
+    st.text("")
+    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 6, 'white') 
+
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
@@ -152,17 +162,6 @@ with st.container():
     with col14:
         centrar_imagen_link('https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg', 'https://github.com/Willy71/parking', "Parking", 160)
               
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-
-centrar_texto("About me", 1, "white")
-col30, col31, col32 = st.columns([1,6,1])
-with col31:
-    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió.', 6, 'white')
-    st.text("")
-    centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 6, 'white')
-    st.text("")
-    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 6, 'white') 
-
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Academic training", 1, "white")
