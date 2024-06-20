@@ -66,11 +66,13 @@ def centrar_texto(texto, tamanho, color):
 def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
+    
+# background-image: url("https://i.postimg.cc/B686GL4w/pxfuel-1.jpg");
 
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/B686GL4w/pxfuel-1.jpg");
+background-image: url("https://raw.githubusercontent.com/Willy71/background/main/picture/pxfuel%20(1).jpg");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
