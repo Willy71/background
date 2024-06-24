@@ -141,7 +141,8 @@ st.text("")
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col17:
-        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "hotel", 205)
+        centrar_imagen("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 205)
+        #centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "hotel", 205)
         #"https://hotelservice.streamlit.app/"
     with col19:
         centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
