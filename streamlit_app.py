@@ -18,7 +18,7 @@ st.set_page_config(
 
 st_gtag(
     key="gtag_send_event_page_load",
-    id="G-RZECDKJY1Z",
+    id="G-WKF4W6RNR3",
     event_name="app_main_page_load",
     params={
         "event_category": "page_load",
