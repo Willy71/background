@@ -4,6 +4,7 @@ from PIL import Image
 import base64
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from streamlit_gtag import st_gtag
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -11,8 +12,21 @@ st.set_page_config(
     page_icon="💻",
     layout="wide"
 )
+
 ######################################################################################################################
 # Google Analitycs
+
+st_gtag(
+    key="gtag_send_event_page_load",
+    id="G-RZECDKJY1Z",
+    event_name="app_main_page_load",
+    params={
+        "event_category": "page_load",
+        "event_label": "main_page",
+        "value": 1,
+    },
+)
+
 #G-RZECDKJY1Z
 ######################################################################################################################
 
