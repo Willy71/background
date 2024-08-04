@@ -321,7 +321,7 @@ with st.container():
         email = st.text_input("Email")
         subject = st.text_input('Subject')
         body = st.text_area('Body')
-        total = (body + "               " + email)
+        total = ("Portfolio \n" + body + "\n" + email)
 
         if st.button("Send Email"):
             try:
