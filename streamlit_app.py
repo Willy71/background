@@ -310,7 +310,7 @@ with st.container():
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
-st.title('Send an email 💌')
+centrar_texto('Send an email 💌', 1, 'white')
 
 #st.markdown("""**Enter your email, subject, and email body then hit send to receive an email from `gcerato@gmail.com`!**""")
 
