@@ -5,6 +5,8 @@ import base64
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from streamlit_gtag import st_gtag
+import smtplib
+from email.mime.text import MIMEText
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -305,6 +307,37 @@ with st.container():
     with col46:
         centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
         centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
+st.title('Send an email 💌')
+
+#st.markdown("""**Enter your email, subject, and email body then hit send to receive an email from `gcerato@gmail.com`!**""")
+
+# Taking inputs
+email_sender = 'gcerato@gmail.com'
+email_receiver = 'gcerato@gmail.com'
+email = st.text_input("Email")
+subject = st.text_input('Subject')
+body = st.text_area('Body')
+total = (body + "               " + email)
+
+if st.button("Send Email"):
+    try:
+        msg = MIMEText(total)
+        msg['From'] = email_sender
+        msg['To'] = email_receiver
+        msg['Subject'] = subject
+
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(st.secrets["email"]["gmail"], st.secrets["email"]["password"])
+        server.sendmail(email_sender, email_receiver, msg.as_string())
+        server.quit()
+
+        st.success('Email sent successfully! 🚀')
+    except Exception as e:
+        st.error(f"Failed to send email: {e}")
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
