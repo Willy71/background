@@ -160,26 +160,28 @@ st.text("")
 
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
+    with col15:
+        centrar_imagen_link("https://i.postimg.cc/sX3TZ38w/Cyclist-sc.jpg", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
+    with col16:
+        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col17:
         centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://hotelservice.streamlit.app/', "Hotel Service",200)  
         #centrar_imagen("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 205)
         #centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "hotel", 205)
         #"https://hotelservice.streamlit.app/"
+    with col18:
+        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
     with col19:
         centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
-    with col15:        
-        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
-    with col16:
-        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Soccer Argentina", 215)
-    with col18:
-        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)
+    
+   
 
 
 
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
     with col10:
-        centrar_imagen_link("https://i.postimg.cc/sX3TZ38w/Cyclist-sc.jpg", "https://i.postimg.cc/3N2Ny1cV/Cyclist-sc.jpg", "Study Case Coursera", 210)       
+        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)       
     with col11:
         centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col12:
