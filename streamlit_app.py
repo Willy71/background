@@ -164,7 +164,7 @@ st.text("")
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col15:
-        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Cover.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Cover_002.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
     with col16:
         centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col17:
@@ -184,7 +184,7 @@ with st.container():
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
     with col10:
-        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://jugadores2023.streamlit.app/', "Fifa 2023", 210)       
+        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://chicagobike.streamlit.app/', "business analyst job", 210)       
     with col11:
         centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col12:
