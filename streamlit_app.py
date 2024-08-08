@@ -164,7 +164,7 @@ st.text("")
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col15:
-        centrar_imagen_link("https://i.postimg.cc/sX3TZ38w/Cyclist-sc.jpg", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Cover.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
     with col16:
         centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
     with col17:
