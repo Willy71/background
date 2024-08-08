@@ -121,7 +121,10 @@ st.markdown(
 #st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
 # Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
-st.markdown("<h1 style='text-align: center; color: white'>Data analyst and Python programmer</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>Business analyst</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>and Python Developer</h1>", unsafe_allow_html=True)
+
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
@@ -150,7 +153,7 @@ with col31:
     st.text("")
     centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 6, 'white')
     st.text("")
-    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 6, 'white') 
+    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, Streamlit and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. I am a Business analyst who graduated from a course taught by Silvertech Argentina. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 6, 'white') 
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
