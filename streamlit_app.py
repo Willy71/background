@@ -184,7 +184,7 @@ with st.container():
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
     with col10:
-        centrar_imagen_link("https://i.postimg.cc/KzV1K702/fifa2023.jpg", 'https://confort.streamlit.app/', "business analyst job", 210)       
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "business analyst job", 210)       
     with col11:
         centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermarket", 200) 
     with col12:
