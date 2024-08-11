@@ -86,6 +86,8 @@ def centrar_texto(texto, tamanho, color):
 def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
+
+######################################################################################################################
     
 # background-image: url("https://i.postimg.cc/B686GL4w/pxfuel-1.jpg");
 
@@ -110,14 +112,16 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.write("#")
-
+######################################################################################################################
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
     f'<img src="https://i.postimg.cc/MZV6b8TR/Encabezado-nombre-removebg-preview.png" width="320">'
     f'</div>',
     unsafe_allow_html=True
 )
+
+st.write("#")
+
 #st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
 # Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
