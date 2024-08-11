@@ -59,6 +59,22 @@ def centrar_imagen(imagen, ancho):
         f'</div>',
         unsafe_allow_html=True
     )
+def left_image(imagen, ancho):
+    # Aplicar estilo CSS para centrar la imagen con Markdown
+    st.markdown(
+        f'<div style="display: flex; justify-content: left;">'
+        f'<img src="{imagen}" width="{ancho}">'
+        f'</div>',
+        unsafe_allow_html=True
+    )
+def right_image(imagen, ancho):
+    # Aplicar estilo CSS para centrar la imagen con Markdown
+    st.markdown(
+        f'<div style="display: flex; justify-content: right;">'
+        f'<img src="{imagen}" width="{ancho}">'
+        f'</div>',
+        unsafe_allow_html=True
+    )
 
 def centrar_imagen_link(imagen, link, nombre, ancho):
     st.markdown(
@@ -81,6 +97,10 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
 
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
+            unsafe_allow_html=True)
+
+def left_text(texto, tamanho, color):
+    st.markdown(f"<h{tamanho} style='text-align: left; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
 
 def centrar_texto_link(link_texto, link_url, tamanho, color):
@@ -122,12 +142,12 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col400, col401 = st.columns([4, 4])
     with col400:
-        centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
+        right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
         st.text("")
-        centrar_texto("Data analyst,", 2, 'white')
-        centrar_texto("Business analyst", 2, 'white')
-        centrar_texto("and Python developer.", 2, 'white')
+        left_text("Data analyst,", 2, 'white')
+        left_text("Business analyst", 2, 'white')
+        left_text("and Python developer.", 2, 'white')
 
 line(6, "blue")
 
