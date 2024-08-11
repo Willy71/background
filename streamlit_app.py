@@ -142,7 +142,7 @@ st.write("#") # Hace que la pagina se cargue desde este lugar
 centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
 
 with st.container():
-    col400, col401 = st.columns([4,4])
+    col400, col401 = st.columns([3,5])
     with col400:
         right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
