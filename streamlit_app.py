@@ -117,13 +117,13 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
-st.write("#")
+st.write("#") # Hace que la pagina se cargue desde este lugar
+
 centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
 centrar_texto("Data analyst, Business analyst and Python developer.", 2, 'white')
 
 line(6, "blue")
-#st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
     col00, col01 = st.columns(2)
@@ -140,7 +140,7 @@ with st.container():
             unsafe_allow_html=True
         )
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
 centrar_texto("About me", 1, "white")
 
@@ -152,9 +152,9 @@ with col31:
     st.text("")
     centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, Streamlit and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. I am a Business analyst who graduated from a course taught by Silvertech Argentina. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 6, 'white') 
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
-st.markdown("<h1 style='text-align: center; color: white'>Works</h1>", unsafe_allow_html=True)
+centrar_texto("Works", 1, "white")
 
 st.text("")
 
@@ -175,9 +175,6 @@ with st.container():
         centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Web page with Python",200)    
     
    
-
-
-
 with st.container():    
     col10, col11, col12, col13, col14 = st.columns(5)
     with col10:
@@ -191,7 +188,7 @@ with st.container():
     with col14:
         centrar_imagen_link('https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg', 'https://github.com/Willy71/parking', "Parking", 160)
               
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
 centrar_texto("Academic training", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
@@ -211,8 +208,8 @@ with st.container():
     with col23:
         centrar_imagen_link("https://i.postimg.cc/zG347njM/Titulo-coursera.jpg", 'https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP', 'Title link',  350)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-        
+line(6, "blue")
+
 centrar_texto("Recommendations in Linkedin", 1, "white")
 st.title("")
 with st.container():
@@ -282,7 +279,7 @@ centrar_texto("Excellent person and excellent professional. Very human and ideal
 centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
 st.title("")
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
 st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
 st.text("")
@@ -310,7 +307,7 @@ with st.container():
         centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
         centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
 centrar_texto('Send an email 💌', 1, 'white')
 
@@ -342,7 +339,7 @@ with st.container():
             except Exception as e:
                 st.error(f"Failed to send email: {e}")
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(6, "blue")
 
 with st.container():
     col51, col52 = st.columns(2)
@@ -358,7 +355,6 @@ with st.container():
         with col56:
             photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 150)
             
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-
+line(6, "blue")
 
 
