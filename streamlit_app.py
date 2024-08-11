@@ -122,7 +122,7 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
 centrar_texto("Data analyst, Business analyst and Python developer.", 2, 'white')
 
-line(10, "#333")
+line(6, "blue")
 #st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
