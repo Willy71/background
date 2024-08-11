@@ -248,12 +248,12 @@ with st.container():
         centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
         centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
 st.text("")
-centrar_texto("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
-centrar_texto(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
-centrar_texto("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 6, "white")  
-centrar_texto("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
-centrar_texto("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
-centrar_texto("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
+left_text("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
+left_text(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
+left_text("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 6, "white")  
+left_text("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
+left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
+left_text("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
 st.title("")
 
 with st.container():
@@ -264,8 +264,8 @@ with st.container():
         centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
         centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
 st.text("")
-centrar_texto('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
-centrar_texto("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
+left_text('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
+left_text("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
 st.title("")
 
 with st.container():
