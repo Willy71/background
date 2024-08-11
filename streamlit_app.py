@@ -379,9 +379,9 @@ with st.container():
         with col54:            
             st.text(" ")
             st.text(" ")
-            photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 150)
+            centrar_imagen("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 150)
         with col56:
-            photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 150)
+            centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", 150)
             
 line(6, "blue")
 
