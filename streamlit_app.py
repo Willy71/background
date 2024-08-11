@@ -261,6 +261,8 @@ with st.container():
         left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
         left_text("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
         centrar_texto("",5,"white")
+        line(3, "green")
+
         
         with st.container():
             col305, col306, col307, col308 = st.columns([0.5,1,1.5,1])
@@ -272,7 +274,8 @@ with st.container():
         st.text("")
         left_text('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
         left_text("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
-        centrar_texto("",5,"white")        
+        centrar_texto("",5,"white") 
+        line(3, "green")
         
         with st.container():
             col309, col310, col311, col312 = st.columns([0.5,1,1.5,1])
@@ -284,6 +287,7 @@ with st.container():
         st.text("")
         left_text("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
         centrar_texto("",5,"white")
+        line(3, "green")
         
         with st.container():
             col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
@@ -300,6 +304,7 @@ with st.container():
         left_text("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
         left_text("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
         centrar_texto("",5,"white")
+        line(3, "green")
         
         with st.container():
             col317, col318, col319, col320 = st.columns([0.5,1,1.5,1])
@@ -312,6 +317,7 @@ with st.container():
         left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
         left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
         centrar_texto("",5,"white")
+        line(3, "green")
         
         line(6, "blue")
         
