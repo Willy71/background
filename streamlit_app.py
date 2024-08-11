@@ -113,14 +113,14 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
+#st.write("#")
+st.text("#")
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
     f'<img src="https://i.postimg.cc/MZV6b8TR/Encabezado-nombre-removebg-preview.png" width="320">'
     f'</div>',
     unsafe_allow_html=True
 )
-
-st.write("#")
 
 #st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
