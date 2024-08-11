@@ -238,104 +238,113 @@ with st.container():
 
 line(6, "blue")
 
-centrar_texto("Recommendations in Linkedin", 1, "white")
-st.title("")
-with st.container():
-    col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
-    with col302:
-        centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 150)
-    with col303:
-        centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
-        centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
-st.text("")
-left_text("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
-left_text(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
-left_text("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 6, "white")  
-left_text("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
-left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
-left_text("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
-st.title("")
+#=====================================================================================================================================================================
+# Recomendations
 
 with st.container():
-    col305, col306, col307, col308 = st.columns([0.5,1,1.5,1])
-    with col306:
-        centrar_imagen("https://i.postimg.cc/J41hr43x/maxi-remove.png", 150)
-    with col307:
-        centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
-        centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
-st.text("")
-left_text('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
-left_text("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
-st.title("")
+    col500, col501, col502 = st.columns([2, 5, 2])
+    with col501:
+        centrar_texto("Recommendations in Linkedin", 1, "white")
+        st.title("")
+        with st.container():
+            col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
+            with col302:
+                centrar_imagen("https://i.postimg.cc/nzC8LgR3/rodrigo-campos-remove.png", 150)
+            with col303:
+                centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
+                centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
+        st.text("")
+        left_text("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 6, 'white')
+        left_text(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 6, "white")
+        left_text("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 6, "white")  
+        left_text("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
+        left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
+        left_text("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
+        st.title("")
+        
+        with st.container():
+            col305, col306, col307, col308 = st.columns([0.5,1,1.5,1])
+            with col306:
+                centrar_imagen("https://i.postimg.cc/J41hr43x/maxi-remove.png", 150)
+            with col307:
+                centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
+                centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
+        st.text("")
+        left_text('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
+        left_text("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
+        st.title("")
+        
+        with st.container():
+            col309, col310, col311, col312 = st.columns([0.5,1,1.5,1])
+            with col310:
+                centrar_imagen("https://i.postimg.cc/qMt5C2Gv/cristina-remove.png", 150)
+            with col311:
+                centrar_texto_link('Cristina Jacquemin', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
+                centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
+        st.text("")
+        left_text("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
+        st.title("")
+        
+        with st.container():
+            col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
+            with col314:
+                centrar_imagen("https://i.postimg.cc/Y9WxCxH5/ariel-remove.png", 150)
+            with col315:
+                centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
+                centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
+        st.text("")
+        left_text("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
+        left_text("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
+        left_text("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
+        left_text("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
+        left_text("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
+        left_text("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
+        st.title("")
+        
+        with st.container():
+            col317, col318, col319, col320 = st.columns([0.5,1,1.5,1])
+            with col318:
+                centrar_imagen("https://i.postimg.cc/MHrZ31cG/agustin-remove.png", 150)
+            with col319:
+                centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
+                centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
+        st.text("")
+        left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
+        left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
+        st.title("")
+        
+        line(6, "blue")
+        
+        st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
+        st.text("")
+        
+        with st.container():    
+            col41, col42, col43 = st.columns(3)
+            with col41:
+                centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
+                centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
+            with col42:
+                centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
+                centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
+            with col43:
+                centrar_imagen("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", 80)
+                centrar_texto_link("Linkedin", "https://www.linkedin.com/in/willycerato",  6, 'white')
+            st.caption("")
+            col44, col45, col46 = st.columns(3)
+            with col44:
+                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", 80)
+                centrar_texto_link("Facebook", "https://www.facebook.com/guillermo.cerato", 6, 'white')
+            with col45:
+                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
+                centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 ,'white')
+            with col46:
+                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
+                centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
+        
+        line(6, "blue")
 
-with st.container():
-    col309, col310, col311, col312 = st.columns([0.5,1,1.5,1])
-    with col310:
-        centrar_imagen("https://i.postimg.cc/qMt5C2Gv/cristina-remove.png", 150)
-    with col311:
-        centrar_texto_link('Cristina Jacquemin', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
-        centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
-st.text("")
-left_text("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
-st.title("")
-
-with st.container():
-    col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
-    with col314:
-        centrar_imagen("https://i.postimg.cc/Y9WxCxH5/ariel-remove.png", 150)
-    with col315:
-        centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
-        centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
-st.text("")
-left_text("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
-left_text("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
-left_text("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
-left_text("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
-left_text("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
-left_text("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
-st.title("")
-
-with st.container():
-    col317, col318, col319, col320 = st.columns([0.5,1,1.5,1])
-    with col318:
-        centrar_imagen("https://i.postimg.cc/MHrZ31cG/agustin-remove.png", 150)
-    with col319:
-        centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
-        centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
-st.text("")
-left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
-left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
-st.title("")
-
-line(6, "blue")
-
-st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
-st.text("")
-
-with st.container():    
-    col41, col42, col43 = st.columns(3)
-    with col41:
-        centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
-        centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
-    with col42:
-        centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
-        centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
-    with col43:
-        centrar_imagen("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", 80)
-        centrar_texto_link("Linkedin", "https://www.linkedin.com/in/willycerato",  6, 'white')
-    st.caption("")
-    col44, col45, col46 = st.columns(3)
-    with col44:
-        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", 80)
-        centrar_texto_link("Facebook", "https://www.facebook.com/guillermo.cerato", 6, 'white')
-    with col45:
-        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
-        centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 ,'white')
-    with col46:
-        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
-        centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
-
-line(6, "blue")
+#=====================================================================================================================================================================
+# Send an email
 
 centrar_texto('Send an email 💌', 1, 'white')
 
@@ -368,6 +377,8 @@ with st.container():
                 st.error(f"Failed to send email: {e}")
 
 line(6, "blue")
+
+#=====================================================================================================================================================================
 
 with st.container():
     col51, col52 = st.columns(2)
