@@ -116,7 +116,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 #st.write("#")
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" width="320">'
+    f'<img src="https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" width="500">'
     f'</div>',
     unsafe_allow_html=True
 )
