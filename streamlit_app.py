@@ -87,9 +87,13 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
 
+def line(size, color):
+    st.markdown(f"<hr style= height:{size}px;border:none;color:{color};background-color:{color}; />",
+                unsafe_allow_html=True)
+    return
+
 ######################################################################################################################
-    
-# background-image: url("https://i.postimg.cc/B686GL4w/pxfuel-1.jpg");
+# Background
 
 page_bg_img = f"""
 <style>
@@ -114,19 +118,12 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
 st.write("#")
-st.markdown(
-    f'<div style="display: flex; justify-content: center;">'
-    f'<img src="https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" width="500">'
-    f'</div>',
-    unsafe_allow_html=True
-)
-
-#st.markdown("<h1 style='text-align:center; color: white'>Data analyst</h1>", unsafe_allow_html=True)
+centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
 centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
-# Imagen anterior de portada https://i.postimg.cc/QdHFz5PD/Banner-streamlit-removebg-preview.png
 centrar_texto("Data analyst, Business analyst and Python developer.", 2, 'white')
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+line(10, "#333")
+#st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 with st.container():
     col00, col01 = st.columns(2)
