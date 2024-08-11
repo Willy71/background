@@ -118,10 +118,13 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
 st.write("#") # Hace que la pagina se cargue desde este lugar
-
 centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
-centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
-centrar_texto("Data analyst, Business analyst and Python developer.", 2, 'white')
+with st.container():
+    col400, col401, col402 = st.columns([3, 1, 3])
+    with col400:
+        centrar_imagen('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
+    with col402:
+        centrar_texto("Data analyst, Business analyst and Python developer.", 2, 'white')
 
 line(6, "blue")
 
