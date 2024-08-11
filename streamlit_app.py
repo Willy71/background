@@ -138,9 +138,11 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
 st.write("#") # Hace que la pagina se cargue desde este lugar
+
 centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
+
 with st.container():
-    col400, col401, col402 = st.columns([4,3,1])
+    col400, col401 = st.columns([4,4])
     with col400:
         right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
