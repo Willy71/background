@@ -319,35 +319,35 @@ with st.container():
         
         
         
-        line(6, "blue")
-        
-        st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
-        st.text("")
-        
-        with st.container():    
-            col41, col42, col43 = st.columns(3)
-            with col41:
-                centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
-                centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
-            with col42:
-                centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
-                centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
-            with col43:
-                centrar_imagen("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", 80)
-                centrar_texto_link("Linkedin", "https://www.linkedin.com/in/willycerato",  6, 'white')
-            st.caption("")
-            col44, col45, col46 = st.columns(3)
-            with col44:
-                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", 80)
-                centrar_texto_link("Facebook", "https://www.facebook.com/guillermo.cerato", 6, 'white')
-            with col45:
-                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
-                centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 ,'white')
-            with col46:
-                centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
-                centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
-        
-        line(6, "blue")
+line(6, "blue")
+
+st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
+st.text("")
+
+with st.container():    
+    col41, col42, col43 = st.columns(3)
+    with col41:
+        centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
+        centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
+    with col42:
+        centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
+        centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
+    with col43:
+        centrar_imagen("https://img.freepik.com/vetores-premium/logotipo-quadrado-do-linkedin-isolado-no-fundo-branco_469489-892.jpg", 80)
+        centrar_texto_link("Linkedin", "https://www.linkedin.com/in/willycerato",  6, 'white')
+    st.caption("")
+    col44, col45, col46 = st.columns(3)
+    with col44:
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/50px-2023_Facebook_icon.svg.png", 80)
+        centrar_texto_link("Facebook", "https://www.facebook.com/guillermo.cerato", 6, 'white')
+    with col45:
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png", 80)
+        centrar_texto_link("Instagram", "https://www.instagram.com/willycerato", 6 ,'white')
+    with col46:
+        centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
+        centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
+
+line(6, "blue")
 
 #=====================================================================================================================================================================
 # Send an email
