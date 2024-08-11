@@ -144,7 +144,7 @@ with st.container():
     with col400:
         right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
-        centrar_texto("", 3, "white")
+        centrar_texto("", 5, "white")
         left_text("Data analyst,", 2, 'white')
         left_text("Business analyst", 2, 'white')
         left_text("and Python developer.", 2, 'white')
