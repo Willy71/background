@@ -276,7 +276,7 @@ with st.container():
         centrar_texto_link('Cristina Jacquemin', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
         centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
 st.text("")
-centrar_texto("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
+left_text("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
 st.title("")
 
 with st.container():
@@ -287,12 +287,12 @@ with st.container():
         centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
         centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
 st.text("")
-centrar_texto("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
-centrar_texto("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
-centrar_texto("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
-centrar_texto("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
-centrar_texto("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
-centrar_texto("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
+left_text("Guillermo was always super considerate of his team, but also demanding, accompanying each one in their needs and", 6, "white")
+left_text("developing personnel for which he worked in a structured way through action plans, which allowed him to check if the collaborator", 6, "white") 
+left_text("did not know (he taught them) ; if he couldn't (help him); but if he didn't want to there was no waste of time.Super results oriented.", 6, "white") 
+left_text("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
+left_text("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
+left_text("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
 st.title("")
 
 with st.container():
@@ -303,8 +303,8 @@ with st.container():
         centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
         centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
 st.text("")
-centrar_texto("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
-centrar_texto("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
+left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
+left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
 st.title("")
 
 line(6, "blue")
