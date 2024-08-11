@@ -245,7 +245,7 @@ with st.container():
     col500, col501, col502 = st.columns([2, 5, 2])
     with col501:
         centrar_texto("Recommendations in Linkedin", 1, "white")
-        st.title("")
+        centrar_texto("",5,"white")
         with st.container():
             col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
             with col302:
@@ -260,8 +260,8 @@ with st.container():
         left_text("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 6, "white")  
         left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 6, "white")  
         left_text("I am confident that he will continue to excel and bring his exceptional skills.", 6, "white")
-        centrar_texto("",5,"white")
-        line(3, "green")
+        
+        line(3, "blue")
 
         
         with st.container():
@@ -274,8 +274,8 @@ with st.container():
         st.text("")
         left_text('Guillermo is an excellent manager, always predisposed, very focused on what he does and results-oriented.', 6, 'white')
         left_text("He is a very good team builder. He is always willing to learn new things and change.", 6, "white")
-        centrar_texto("",5,"white") 
-        line(3, "green")
+        
+        line(3, "blue")
         
         with st.container():
             col309, col310, col311, col312 = st.columns([0.5,1,1.5,1])
@@ -286,8 +286,8 @@ with st.container():
                 centrar_texto_link('Accounts director - Grupo Solvens', "https://www.linkedin.com/in/jacquemin-cristina-51958027/", 4, 'lightblue')
         st.text("")
         left_text("Guillermo is without a doubt a great professional in his area, a great leader and generator of efficient work teams!", 6, "white")
-        centrar_texto("",5,"white")
-        line(3, "green")
+        
+        line(3, "blue")
         
         with st.container():
             col313, col314, col315, col316 = st.columns([0.5,1,1.5,1])
@@ -303,8 +303,8 @@ with st.container():
         left_text("Reliable in customer service (retailers) and territory development, average ticket, arpu, ROI, market share, brand visibility,", 6, "white") 
         left_text("and retailer training. He always showed himself with professionalism, enthusiasm and speed, the team he led achieved results and", 6, "white") 
         left_text("expanded the area. Collaborators also emerged who were able to grow and develop under his direction.", 6, "white")
-        centrar_texto("",5,"white")
-        line(3, "green")
+        
+        line(3, "blue")
         
         with st.container():
             col317, col318, col319, col320 = st.columns([0.5,1,1.5,1])
@@ -316,8 +316,8 @@ with st.container():
         st.text("")
         left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
         left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
-        centrar_texto("",5,"white")
-        line(3, "green")
+        
+        
         
         line(6, "blue")
         
