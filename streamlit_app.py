@@ -149,8 +149,6 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ######################################################################################################################
-st.write("#") # Hace que la pagina se cargue desde este lugar
-
 centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-removebg.png?raw=true" , 500)
 
 with st.container():
