@@ -181,16 +181,16 @@ with st.container():
 line(6, "blue")
 
 
-with st.container():
-    col30, col31, col32 = st.columns([0.4,6,0.4])
-    with col31:
-        centrar_texto("About me", 1, "white")
-        st.text("")
-        centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió. I am currently working as a freelancer on the Upwork platform as well as custom work for clients in my city.', 5, 'white')
-        st.text("")
-        centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 5, 'white')
-        st.text("")
-        centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, Streamlit and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. I am a Business analyst who graduated from a course taught by Silvertech Argentina. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 5, 'white') 
+
+col30, col31, col32 = st.columns([0.4,6,0.4])
+with col31:
+    centrar_texto("About me", 1, "white")
+    st.text("")
+    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió. I am currently working as a freelancer on the Upwork platform as well as custom work for clients in my city.', 5, 'white')
+    st.text("")
+    centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 5, 'white')
+    st.text("")
+    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, Streamlit and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. I am a Business analyst who graduated from a course taught by Silvertech Argentina. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 5, 'white') 
 
 line(6, "blue")
 
