@@ -11,9 +11,21 @@ from email.mime.text import MIMEText
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
     page_title="Portfolio - Guillermo Cerato",
-    page_icon="💻",
+    page_icon="📊",
     layout="wide"
 )
+
+# We reduced the empty space at the beginning of the streamlit
+reduce_space ="""
+            <style type="text/css">
+            /* Removes space in default header of Streamlit apps */
+            div[data-testid="stAppViewBlockContainer"]{
+                padding-top:0px;
+            }
+            </style>
+            """
+# We load reduce_space
+st.html(reduce_space)
 
 ######################################################################################################################
 # Google Analitycs
