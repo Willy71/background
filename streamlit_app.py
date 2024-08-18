@@ -15,7 +15,17 @@ st.set_page_config(
     layout="wide"
 )
 
-
+# We reduced the empty space at the beginning of the streamlit
+reduce_space ="""
+            <style type="text/css">
+            /* Removes space in default header of Streamlit apps */
+            div[data-testid="stAppViewBlockContainer"]{
+                padding-top:0px;
+            }
+            </style>
+            """
+# We load reduce_space
+st.html(reduce_space)
 
 ######################################################################################################################
 # Google Analitycs
