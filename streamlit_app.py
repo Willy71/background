@@ -107,6 +107,15 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
         unsafe_allow_html=True
     )
 
+def circular_picture(image, img_width, align="center"):
+    st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">', unsafe_allow_html=True)
+    circulo = f"""
+                <div style="text-align: {align};">
+                    <img src={image} alt="" class="circle responsive-img" width="{img_width}px> <!-- notice the "circle" class -->
+                </div>  
+                """
+    st.markdown(circulo, unsafe_allow_html=True)
+
 def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
@@ -154,7 +163,7 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col400, col401 = st.columns([4,5])
     with col400:
-        right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
+        circular_picture('https://media.licdn.com/dms/image/v2/D4D03AQFoImFXBOXSiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718294662170?e=1729728000&v=beta&t=qNg4jGey_rccYLiZ6b14-dpoCPKkDJwVyqjXesQum8w', 300, "right")
     with col401:
         centrar_texto("", 5, "white")
         centrar_texto("Data analyst,", 2, 'white')
