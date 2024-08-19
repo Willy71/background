@@ -163,7 +163,7 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col400, col401 = st.columns([4,5])
     with col400:
-        circular_picture('https://media.licdn.com/dms/image/v2/D4D03AQFoImFXBOXSiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718294662170?e=1729728000&v=beta&t=qNg4jGey_rccYLiZ6b14-dpoCPKkDJwVyqjXesQum8w', 300, "right")
+        right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
         centrar_texto("", 5, "white")
         centrar_texto("Data analyst,", 2, 'white')
