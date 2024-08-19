@@ -108,7 +108,7 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
     )
 
 def circular_picture(image, img_width, align="center"):
-    st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">', unsafe_allow_html=True)
+    # st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">', unsafe_allow_html=True)
     circulo = f"""
                 <div style="text-align: {align};">
                     <img src={image} alt="" class="circle responsive-img" width="{img_width}px> <!-- notice the "circle" class -->
