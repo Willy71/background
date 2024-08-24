@@ -135,12 +135,12 @@ def line(size, color):
 
 ######################################################################################################################
 # Background
-# "https://raw.githubusercontent.com/Willy71/background/main/picture/pxfuel%20(1).jpg"
+# "https://github.com/Willy71/background/blob/main/picture/Background.png?raw=true"
 
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/Willy71/background/blob/main/picture/Background.png?raw=true");
+background-image: url("https://raw.githubusercontent.com/Willy71/background/main/picture/pxfuel%20(1).jpg");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
