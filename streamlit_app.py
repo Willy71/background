@@ -166,7 +166,8 @@ with st.container():
     with col400:
         right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
-        centrar_imagen("https://github.com/Willy71/background/blob/main/picture/Apresenta%C3%A7%C3%A3o%202.gif?raw=true", 300)
+        st.subheader("")
+        centrar_imagen("https://github.com/Willy71/background/blob/main/picture/Apresenta%C3%A7%C3%A3o%202.gif?raw=true", 400)
         #centrar_texto("", 5, "white")
         #centrar_texto("Data analyst,", 2, 'white')
         #centrar_texto("Business analyst", 2, 'white')
