@@ -179,7 +179,7 @@ with st.container():
     col00, col01 = st.columns(2)
     with col00:
         #st.markdown("<h1 style='text-align: center; color: white'>Objective</h1>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: white'>Welcome to my website, which focuses on showcasing my work. The objective is for them to evaluate my performance and skills. Python, SQL, Excel, Power BI, Streamlit, Jira, Miro, Figma and Storytelling are the most used tools in my work.</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: white'>Bem-vindo ao meu site, que foca em mostrar meu trabalho. O objetivo é que avaliem meu desempenho e habilidades. Python, SQL, ETL, Streamlit, Jira, Miro, Figma e Storytelling são as ferramentas mais usadas no meu trabalho.</h4>", unsafe_allow_html=True)
         #st.write(
             #"[Work done with Streamlit >](https://uberviajes.streamlit.app/)")
     with col01:
@@ -198,11 +198,11 @@ col30, col31, col32 = st.columns([0.4,6,0.4])
 with col31:
     centrar_texto("About me", 1, "white")
     st.text("")
-    centrar_texto(f'I am an Argentine resident in Brazil since 2016 with diverse professional experiences, mainly in tourism as a micro-entrepreneur running Lupita Hostel e Pousada in Maceió. I am currently working as a freelancer on the Upwork platform as well as custom work for clients in my city.', 5, 'white')
+    centrar_texto(f'Sou argentino residente no Brasil desde 2016 com diversas experiências profissionais, principalmente em turismo como microempreendedor comandando o Lupita Hostel e Pousada em Maceió. Atualmente trabalho como freelancer na plataforma Upwork e também com trabalhos personalizados para clientes na cidade de Ponta Grossa, Paraná, Brasil.', 5, 'white')
     st.text("")
-    centrar_texto('My career in Argentina included sales roles at Unifon, managing their sales team, and at Parmalat as a supervisor. I joined Nokia in 2006 as a field supervisor, organizing events and participating in sales and commercial management.Throughout my career, I have consistently worked with metrics, data, and statistical analysis, primarily using Excel.  ', 5, 'white')
+    centrar_texto('Minha carreira na Argentina incluiu funções de vendas, gerenciamento de equipe de vendas e supervisão. Entrei para a Nokia em 2006 como supervisor de campo, organizando eventos e participando de vendas e gestão comercial. Ao longo da minha carreira, trabalhei consistentemente com métricas, dados e análise estatística, principalmente usando o Excel.  ', 5, 'white')
     st.text("")
-    centrar_texto('My interest in data analysis led me to explore tools like SQL, Python, Streamlit and Power BI. I am a Python programmer and enrolled in the Google Data Analytics PT course on Coursera to further structure my studies. I am a Business analyst who graduated from a course taught by Silvertech Argentina. My curiosity and dedication drive me to continually learn and hone my skills in data analytics.', 5, 'white') 
+    centrar_texto('Meu interesse em análise de dados me levou a explorar ferramentas como SQL, Python, Streamlit e Power BI. Sou um programador Python e me matriculei no curso Google Data Analytics PT no Coursera para estruturar melhor meus estudos. Sou um analista de negócios que se formou em um curso ministrado pela Silvertech Argentina. Minha curiosidade e dedicação me levam a aprender e aprimorar minhas habilidades continuamente.', 5, 'white') 
 
 line(6, "blue")
 
