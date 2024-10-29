@@ -196,7 +196,7 @@ line(6, "blue")
 
 col30, col31, col32 = st.columns([0.4,6,0.4])
 with col31:
-    centrar_texto("About me", 1, "white")
+    centrar_texto("Sobre mim", 1, "white")
     st.text("")
     centrar_texto(f'Sou argentino residente no Brasil desde 2016 com diversas experiências profissionais, principalmente em turismo como microempreendedor comandando o Lupita Hostel e Pousada em Maceió. Atualmente trabalho como freelancer na plataforma Upwork e também com trabalhos personalizados para clientes na cidade de Ponta Grossa, Paraná, Brasil.', 5, 'white')
     st.text("")
@@ -206,7 +206,7 @@ with col31:
 
 line(6, "blue")
 
-centrar_texto("Works", 1, "white")
+centrar_texto("Alguns dos meus trabalhos", 1, "white")
 
 st.text("")
 
@@ -242,20 +242,20 @@ with st.container():
               
 line(6, "blue")
 
-centrar_texto("Academic training", 1, "white")
+centrar_texto("Formação acadêmica", 1, "white")
 centrar_texto("Profissional Google Data Analytics by Coursera", 4, "white")
 st.title("#")
 with st.container():
     col20, col21, col22, col23, col500 = st.columns([1,3.3,0.3,3.3,1])
     with col21:
-        centrar_texto("1- Fundamentals: Data, Data, Everywhere", 7, "white")
-        centrar_texto("2- Ask questions to make data-driven decisions", 7, "white")
-        centrar_texto("3- Prepare Data for Exploration", 7, "white")
-        centrar_texto("4- Process the data to clean it", 7, "white")
-        centrar_texto("5- Analyze data to answer questions", 7, "white")  
-        centrar_texto("6- Share data with the art of visualization", 7, "white")
-        centrar_texto("7- Data analysis with R programming", 7, "white")
-        centrar_texto("8- Google Data Analytics Final Project: Complete a Case Study", 7, "white")
+        centrar_texto("1- Fundamentos: Dados, em todo lugar", 7, "white")
+        centrar_texto("2- Faça perguntas para tomar decisões baseadas em dados", 7, "white")
+        centrar_texto("3- Preparar dados para exploração", 7, "white")
+        centrar_texto("4- Processe os dados para limpá-los", 7, "white")
+        centrar_texto("5- Analisar dados para responder perguntas", 7, "white")  
+        centrar_texto("6- Compartilhe dados com a arte da visualização", 7, "white")
+        centrar_texto("7- Análise de dados com programação R", 7, "white")
+        centrar_texto("8- Projeto final do Google Data Analytics: Concluir um estudo de caso", 7, "white")
 
     with col23:
         centrar_imagen_link("https://i.postimg.cc/zG347njM/Titulo-coursera.jpg", 'https://www.coursera.org/account/accomplishments/professional-cert/LMTDNASPE8WP', 'Title link',  350)
@@ -268,7 +268,7 @@ line(6, "blue")
 with st.container():
     col500, col501, col502 = st.columns([2, 5, 2])
     with col501:
-        centrar_texto("Recommendations in Linkedin", 1, "white")
+        centrar_texto("Recomendações no Linkedin", 1, "white")
         centrar_texto("",5,"white")
         with st.container():
             col301, col302, col303, col304 = st.columns([0.5,1,2,0.5])
@@ -338,8 +338,8 @@ with st.container():
                 centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
                 centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 4, 'lightblue')
         st.text("")
-        left_text("Excellent person and excellent professional. Very human and ideal for", 6, "white") 
-        left_text("the position in which we share company. It has been a pleasure to work with him.", 6, "white")
+        left_text("Excelente persona y excelente profesional. Muy humano e idóneo en el", 6, "white") 
+        left_text("puesto en el que compartimos compañía. Ha sido un placer trabajar con él.", 6, "white")
         
         
         
