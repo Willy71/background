@@ -278,12 +278,9 @@ with st.container():
                 centrar_texto_link('Rodrigo Campos', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
                 centrar_texto_link('Key account manager - Mobile Executive Leader | Driving Performance & Growth | INSEAD Exec. MBA & Harvard alumnus, Doctoral Candidate', "https://www.linkedin.com/in/rodrigocampos/", 4, 'lightblue')
         st.text("")
-        left_text("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia.", 4, 'white')
-        left_text(" Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 4, "white")
-        left_text("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities.", 4, "white")  
-        left_text("Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality.", 4, "white")  
-        left_text("Guillermo's dedication and sense of responsibility make him an invaluable asset to any team.", 4, "white")  
-        left_text("I am confident that he will continue to excel and bring his exceptional skills.", 4, "white")
+        left_text("I am glad to recommend Guillermo, with whom I had the opportunity of working at Nokia. Guillermo stands out for his exceptional blend of experience in business, leadership, marketing operations, and advanced analytics.", 4, 'white')
+        left_text(" ", 4, "white")
+        left_text("He possesses the unique ability to extract actionable insights from complex data sets without losing sight of operational realities. Guillermo takes ownership of his responsibilities passionately and diligently, consistently delivering work of outstanding quality. Guillermo's dedication and sense of responsibility make him an invaluable asset to any team. I am confident that he will continue to excel and bring his exceptional skills", 4, "white")  
         
         line(3, "blue")
 
@@ -296,8 +293,7 @@ with st.container():
                 centrar_texto_link('Maximiliano Roca Saran', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
                 centrar_texto_link('Key account manager - Mobile phones', "https://www.linkedin.com/in/maximiliano-roca-0b628421/", 4, 'lightblue')
         st.text("")
-        left_text('Guilherme é um excelente gestor, sempre predisposto, muito focado no que faz e orientado a resultados.', 4, 'white')
-        left_text("Ele é um ótimo construtor de equipamentos de trabalho. Ele está sempre disposto a aprender coisas novas e mudar.", 4, "white")
+        left_text('Guilherme é um excelente gestor, sempre predisposto, muito focado no que faz e orientado a resultados. Ele é um ótimo construtor de equipamentos de trabalho. Ele está sempre disposto a aprender coisas novas e mudar.', 4, 'white')
         
         line(3, "blue")
         
@@ -321,14 +317,9 @@ with st.container():
                 centrar_texto_link("Ariel Smirnoff", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
                 centrar_texto_link("Business coach", "https://www.linkedin.com/in/ariel-smirnoff-b85094b0/", 4, 'lightblue')
         st.text("")
-        left_text("O Guillermo sempre foi super atencioso com sua equipe, mas também exigente, acompanhando cada um em ", 4, "white")
-        left_text("suas necessidades e desenvolvendo pessoal para o qual trabalhava de forma estruturada através de planos ", 4, "white") 
-        left_text("de ação, o que lhe permitia verificar se o colaborador não sabia (ele os ensinava) ;se eu não pudesse ", 4, "white") 
-        left_text("(eu ajudei ele); mas se ele não quisesse não havia perda de tempo. Super orientado a resultados. Confiável ", 4, "white") 
-        left_text("no atendimento ao cliente (varejistas) e desenvolvimento de território, ticket médio, arpu, ROI, participação de ", 4, "white") 
-        left_text("mercado, visibilidade de marca e treinamento de varejistas. Sempre se mostrou com profissionalismo, ", 4, "white")
-        left_text("entusiasmo e rapidez, a equipe que liderou obteve resultados e expandiu a área. Também surgiram ", 4, "white")
-        left_text("colaboradores que conseguiram crescer e se desenvolver sob sua direção.", 4, "white")
+        left_text("O Guillermo sempre foi super atencioso com sua equipe, mas também exigente, acompanhando cada um em suas necessidades e desenvolvendo pessoal para o qual trabalhava de forma estruturada através de planos  de ação, o que lhe permitia verificar se o colaborador não sabia (ele os ensinava) ;se eu não pudesse (eu ajudei ele); mas se ele não quisesse não havia perda de tempo.  ", 4, "white")
+        left_text("Super orientado a resultados. Confiável no atendimento ao cliente (varejistas) e desenvolvimento de território, ticket médio, arpu, ROI, participação de  mercado, visibilidade de marca e treinamento de varejistas. Sempre se mostrou com profissionalismo,  entusiasmo e rapidez, a equipe que liderou obteve resultados e expandiu a área. Também surgiram  colaboradores que conseguiram crescer e se desenvolver sob sua direção. ", 4, "white") 
+
         
         line(3, "blue")
         
@@ -340,11 +331,9 @@ with st.container():
                 centrar_texto_link("Agustin Valdes Marteles", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 3, 'lightblue')
                 centrar_texto_link("Make it happen", "https://www.linkedin.com/in/agustin-valdes-marteles-55273022/", 3, 'lightblue')
         st.text("")
-        left_text("Excelente pessoa e excelente profissional. Muito humano e ideal para", 4, "white") 
-        left_text("a posição em que partilhamos companhia. Foi um prazer trabalhar com ele.", 4, "white")
+        left_text("Excelente pessoa e excelente profissional. Muito humano e ideal para a posição em que partilhamos companhia. Foi um prazer trabalhar com ele.", 4, "white") 
         
-        
-        
+          
 line(6, "blue")
 
 st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
