@@ -202,7 +202,7 @@ with col31:
     st.text("")
     centrar_texto('Minha carreira na Argentina incluiu funções de vendas, gerenciamento de equipe de vendas e supervisão. Entrei para a Nokia em 2006 como supervisor de campo, organizando eventos e participando de vendas e gestão comercial. Ao longo da minha carreira, trabalhei consistentemente com métricas, dados e análise estatística, principalmente usando o Excel.  ', 5, 'white')
     st.text("")
-    centrar_texto('Meu interesse em análise de dados me levou a explorar ferramentas como SQL, Python, Streamlit e Power BI. Sou um programador Python e me matriculei no curso Google Data Analytics PT no Coursera para estruturar melhor meus estudos. Sou um analista de negócios que se formou em um curso ministrado pela Silvertech Argentina. Minha curiosidade e dedicação me levam a aprender e aprimorar minhas habilidades continuamente.', 5, 'white') 
+    centrar_texto('Meu interesse em análise de dados me levou a explorar ferramentas como SQL, Python, Streamlit e Power BI. Sou um programador Python e me matriculei no curso Google Data Analytics PT no Coursera para estruturar melhor meus estudos. Sou um analista funcional que se formou em um curso ministrado pela Silvertech Argentina. Minha curiosidade e dedicação me levam a aprender e aprimorar minhas habilidades continuamente.', 5, 'white') 
 
 line(6, "blue")
 
