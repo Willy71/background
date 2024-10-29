@@ -336,7 +336,7 @@ with st.container():
           
 line(6, "blue")
 
-st.markdown("<h1 style='text-align: center; color: white'>Contact</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white'>Contato</h1>", unsafe_allow_html=True)
 st.text("")
 
 with st.container():    
@@ -367,7 +367,7 @@ line(6, "blue")
 #=====================================================================================================================================================================
 # Send an email
 
-centrar_texto('Send an email 💌', 1, 'white')
+centrar_texto('Envie um email 💌', 1, 'white')
 
 with st.container():
     co01, co02, co03 = st.columns([2, 4, 2])
@@ -404,8 +404,8 @@ line(6, "blue")
 with st.container():
     col51, col52 = st.columns(2)
     with col51:
-        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit</h2>", unsafe_allow_html=True)
-        st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: white'>Site feito com Streamlit</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: blue;'>Programado com Python</h2>", unsafe_allow_html=True)
     with col52:
         co53, col54, col55, col56, col57 = st.columns(5)
         with col54:            
