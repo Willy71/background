@@ -215,7 +215,7 @@ with st.container():
     with col15:
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Cover_002.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
     with col16:
-        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "Confort - Nova funcionalidade", 210)
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "Nova funcionalidade", 210)
     with col17:
         centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Planejamento estratégico", 220)   
         #centrar_imagen("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 205)
