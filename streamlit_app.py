@@ -213,7 +213,7 @@ st.text("")
 with st.container():    
     col15, col16, col17, col18, col19 = st.columns(5)
     with col15:
-        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Cover_002.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Coursera.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
     with col16:
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "Nova funcionalidade", 210)
     with col17:
