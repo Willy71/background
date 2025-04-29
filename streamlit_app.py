@@ -221,9 +221,9 @@ with st.container():
         #centrar_imagen("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 205)
         #centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "Hotel", 205)
         #"https://hotelservice.streamlit.app/"
-    with col18:
+    #with col18:
         #centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
-    with col19:
+    #with col19:
         #centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Sitio web com Python",200)    
     
    
