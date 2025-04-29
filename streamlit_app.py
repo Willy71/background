@@ -218,7 +218,8 @@ with st.container():
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "Nova funcionalidade", 210)
     with col17:
         centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Planejamento estratégico", 220)   
-    #with col18:
+    with col18:
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Portfolio%20011.png?raw=true", "https://oficinamecanicapg.onrender.com/", "Gestão de oficinas mecánicas", 220)
         #centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Planejamento estratégico", 220)
         #centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
     #with col19:
@@ -232,11 +233,11 @@ with st.container():
     col10, col11, col12, col13 = st.columns(4)
     with col10:
         centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://hotelservice.streamlit.app/', "Hotel Service",200)         
+    with col11:
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Portfolio%20012.png?raw=true", 'https://crm-oficinas.onrender.com/', "CRM Leads", 200)
     with col12:
-        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
-    with col13:
         centrar_imagen_link("https://i.postimg.cc/nrR09P6L/lavajato.jpg", 'https://github.com/Willy71/washcar', "Lava-jato", 175)
-    with col14:
+    with col13:
         centrar_imagen_link('https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg', 'https://github.com/Willy71/parking', "Estacionamento", 160)
     #with col11:
         #centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
