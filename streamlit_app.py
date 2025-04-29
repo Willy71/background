@@ -222,9 +222,9 @@ with st.container():
         #centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "Hotel", 205)
         #"https://hotelservice.streamlit.app/"
     with col18:
-        centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
+        #centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
     with col19:
-        centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Sitio web com Python",200)    
+        #centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Sitio web com Python",200)    
     
    
 with st.container():    
@@ -232,7 +232,7 @@ with st.container():
     with col10:
         centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://hotelservice.streamlit.app/', "Hotel Service",200)        
     with col11:
-        centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
+        #centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
         #centrar_imagen_link("https://i.postimg.cc/0yJcrZZ8/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)        
     with col12:
         centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
