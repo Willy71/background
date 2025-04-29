@@ -211,35 +211,37 @@ centrar_texto("Alguns dos meus trabalhos", 1, "white")
 st.text("")
 
 with st.container():    
-    col15, col16, col17, col18, col19 = st.columns(5)
+    col15, col16, col17, col18 = st.columns(4)
     with col15:
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Coursera.png?raw=true", "https://chicagobike.streamlit.app/", "Study Case Coursera", 210) 
     with col16:
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "Nova funcionalidade", 210)
     with col17:
         centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Planejamento estratégico", 220)   
+    #with col18:
+        #centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Planejamento estratégico", 220)
+        #centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
+    #with col19:
         #centrar_imagen("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 205)
         #centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", "Hotel", 205)
         #"https://hotelservice.streamlit.app/"
-    #with col18:
-        #centrar_imagen_link("https://i.postimg.cc/XvjGtYrT/preserntation.jpg", 'https://futbolargentino.streamlit.app', "Futbol liga Argentina", 215)
-    #with col19:
         #centrar_imagen_link("https://i.postimg.cc/h45LxTXh/streamlit-page.jpg", 'https://github.com/Willy71/background/', "Sitio web com Python",200)    
     
    
 with st.container():    
-    col10, col11, col12, col13, col14 = st.columns(5)
+    col10, col11, col12, col13 = st.columns(4)
     with col10:
-        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://hotelservice.streamlit.app/', "Hotel Service",200)        
-    #with col11:
-        #centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
-        #centrar_imagen_link("https://i.postimg.cc/0yJcrZZ8/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)        
+        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://hotelservice.streamlit.app/', "Hotel Service",200)         
     with col12:
-        centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
+        centrar_imagen_link("https://i.postimg.cc/MHK9TS34/Hotel001.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
     with col13:
         centrar_imagen_link("https://i.postimg.cc/nrR09P6L/lavajato.jpg", 'https://github.com/Willy71/washcar', "Lava-jato", 175)
     with col14:
         centrar_imagen_link('https://i.postimg.cc/ZRLf4RHp/Estacionamiento.jpg', 'https://github.com/Willy71/parking', "Estacionamento", 160)
+    #with col11:
+        #centrar_imagen_link("https://i.postimg.cc/wx0Wr17d/super003.jpg", 'https://github.com/Willy71/supermercados', "Supermercado", 200)
+        #centrar_imagen_link("https://i.postimg.cc/X7Bwgq5L/uber-ny.jpg", "https://uberviajes.streamlit.app/", "Uber - New York", 220)
+        #centrar_imagen_link("https://i.postimg.cc/0yJcrZZ8/tareas001.jpg", 'https://github.com/Willy71/tareas',"Daily task manager", 210)     
               
 line(6, "blue")
 
