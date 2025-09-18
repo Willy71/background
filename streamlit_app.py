@@ -167,7 +167,7 @@ with st.container():
         right_image('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true', 300)
         #right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
-        st.title("")
+        st.header("")
         centrar_imagen("https://github.com/Willy71/background/blob/main/picture/Gemini_Generated_Image_001.png?raw=true", 400)
         #centrar_imagen("https://github.com/Willy71/background/blob/main/picture/Analista%20de%20dados.png?raw=true", 400)
         #centrar_texto("", 5, "white")
@@ -422,6 +422,7 @@ with st.container():
             centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", 150)
             
 line(6, "blue")
+
 
 
 
