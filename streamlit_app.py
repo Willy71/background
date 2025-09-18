@@ -164,7 +164,8 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col400, col401 = st.columns([4,5])
     with col400:
-        right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
+        right_image('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true",300)
+        #right_image('https://i.postimg.cc/Jh4cxZ5k/willy-004.png', 300)
     with col401:
         st.subheader("")
         centrar_imagen("https://github.com/Willy71/background/blob/main/picture/Analista%20de%20dados.png?raw=true", 400)
@@ -420,5 +421,6 @@ with st.container():
             centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", 150)
             
 line(6, "blue")
+
 
 
