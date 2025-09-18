@@ -302,11 +302,12 @@ with st.container():
     with col2:
         _, col_img1, _, col_img2, _ = st.columns(5)
         with col_img1:
-            st.image("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
+            centrar_imagen("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
         with col_img2:
-            st.image("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
+            centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
 
 
