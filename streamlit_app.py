@@ -252,7 +252,7 @@ st.write("")
 line(6, "blue")
 
 # --- EMAIL FORM ---
-centrar_texto('Send me an email 💌', 1, 'white')
+centrar_texto('Send me an email 💌', 2, 'white')
 
 with st.container():
     _, col_form, _ = st.columns([1, 2, 1])
@@ -307,5 +307,6 @@ with st.container():
             st.image("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
 
