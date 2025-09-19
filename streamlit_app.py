@@ -113,7 +113,7 @@ line(6, "blue")
 
 # --- ABOUT ME ---
 with st.container():
-    centrar_texto("About Me", 1, "white")
+    centrar_texto("About Me", 2, "white")
     st.write("")
     about_me_text = """
     <p style='text-align: center; color: white; font-size: 1.1rem; max-width: 800px; margin: auto;'>
@@ -128,7 +128,7 @@ line(6, "blue")
 
 # --- SKILLS ---
 with st.container():
-    centrar_texto("Technical Skills", 1, "white")
+    centrar_texto("Technical Skills", 2, "white")
     st.write("")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -145,7 +145,7 @@ with st.container():
 line(6, "blue")
 
 # --- PORTFOLIO / PROJECTS ---
-centrar_texto("My Projects", 1, "white")
+centrar_texto("My Projects", 2, "white")
 st.write("")
 
 # --- Project Row 1 ---
@@ -185,7 +185,7 @@ with st.container():
 line(6, "blue")
 
 # --- EDUCATION ---
-centrar_texto("Education & Certifications", 1, "white")
+centrar_texto("Education & Certifications", 2, "white")
 st.write("")
 with st.container():
     col1, col2 = st.columns([7, 3])
@@ -214,7 +214,7 @@ line(6, "blue")
 
 # --- RECOMMENDATIONS ---
 with st.container():
-    centrar_texto("LinkedIn Recommendations", 1, "white")
+    centrar_texto("LinkedIn Recommendations", 2, "white")
     st.write("")
     # Recommendation 1
     st.markdown("""
@@ -243,7 +243,7 @@ with st.container():
 line(6, "blue")
 
 # --- CONTACT ---
-centrar_texto("Contact Me", 1, "white")
+centrar_texto("Contact Me", 2, "white")
 st.write("")
 
 with st.container():
@@ -263,7 +263,7 @@ st.write("")
 line(6, "blue")
 
 # --- EMAIL FORM ---
-centrar_texto('Send me an email 💌', 1, 'white')
+centrar_texto('Send me an email 💌', 2, 'white')
 
 with st.container():
     _, col_form, _ = st.columns([1, 2, 1])
@@ -313,10 +313,11 @@ with st.container():
     with col2:
         _, col_img1, _, col_img2, _ = st.columns(5)
         with col_img1:
-            st.image("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
+            centrar_imagen("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
         with col_img2:
-            st.image("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
+            centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
 
