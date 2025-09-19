@@ -12,6 +12,17 @@ st.set_page_config(
     layout="wide"
 )
 
+# --- META TAGS FOR SOCIAL MEDIA SHARING (NEW CODE) ---
+# This block adds the necessary tags for link previews on social media.
+st.markdown("""
+    <meta property="og:title" content="Guillermo Cerato's Portfolio">
+    <meta property="og:description" content="Data Analyst and Python Developer. Explore my projects and skills.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Willy71/background/main/picture/002.png">
+    <meta property="og:url" content="https://guillermocerato.streamlit.app">
+    <meta name="twitter:card" content="summary_large_image">
+""", unsafe_allow_html=True)
+
+
 # --- HELPER FUNCTIONS ---
 
 def centrar_texto(texto, tamanho, color):
@@ -82,7 +93,7 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col1, col2 = st.columns([4, 5])
     with col1:
-        centrar_imagen('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true', width=300)
+        st.image('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true', width=300)
     with col2:
         st.write("") # Vertical spacer
         st.write("") # Vertical spacer
@@ -102,7 +113,7 @@ line(6, "blue")
 
 # --- ABOUT ME ---
 with st.container():
-    centrar_texto("About Me", 2, "white")
+    centrar_texto("About Me", 1, "white")
     st.write("")
     about_me_text = """
     <p style='text-align: center; color: white; font-size: 1.1rem; max-width: 800px; margin: auto;'>
@@ -117,7 +128,7 @@ line(6, "blue")
 
 # --- SKILLS ---
 with st.container():
-    centrar_texto("Technical Skills", 2, "white")
+    centrar_texto("Technical Skills", 1, "white")
     st.write("")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -134,7 +145,7 @@ with st.container():
 line(6, "blue")
 
 # --- PORTFOLIO / PROJECTS ---
-centrar_texto("My Projects", 2, "white")
+centrar_texto("My Projects", 1, "white")
 st.write("")
 
 # --- Project Row 1 ---
@@ -174,7 +185,7 @@ with st.container():
 line(6, "blue")
 
 # --- EDUCATION ---
-centrar_texto("Education & Certifications", 2, "white")
+centrar_texto("Education & Certifications", 1, "white")
 st.write("")
 with st.container():
     col1, col2 = st.columns([7, 3])
@@ -203,7 +214,7 @@ line(6, "blue")
 
 # --- RECOMMENDATIONS ---
 with st.container():
-    centrar_texto("LinkedIn Recommendations", 2, "white")
+    centrar_texto("LinkedIn Recommendations", 1, "white")
     st.write("")
     # Recommendation 1
     st.markdown("""
@@ -232,7 +243,7 @@ with st.container():
 line(6, "blue")
 
 # --- CONTACT ---
-centrar_texto("Contact Me", 2, "white")
+centrar_texto("Contact Me", 1, "white")
 st.write("")
 
 with st.container():
@@ -252,7 +263,7 @@ st.write("")
 line(6, "blue")
 
 # --- EMAIL FORM ---
-centrar_texto('Send me an email 💌', 2, 'white')
+centrar_texto('Send me an email 💌', 1, 'white')
 
 with st.container():
     _, col_form, _ = st.columns([1, 2, 1])
@@ -302,12 +313,9 @@ with st.container():
     with col2:
         _, col_img1, _, col_img2, _ = st.columns(5)
         with col_img1:
-            centrar_imagen("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
+            st.image("https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", width=100)
         with col_img2:
-            centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
+            st.image("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
-
-
-
 
