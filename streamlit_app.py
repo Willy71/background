@@ -93,7 +93,7 @@ centrar_imagen("https://github.com/Willy71/background/blob/main/picture/nombre-r
 with st.container():
     col1, col2 = st.columns([4, 5])
     with col1:
-        st.image('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true', width=300)
+        centrar_imagen('https://github.com/Willy71/background/blob/main/picture/002.png?raw=true', width=300)
     with col2:
         st.write("") # Vertical spacer
         st.write("") # Vertical spacer
@@ -318,4 +318,5 @@ with st.container():
             st.image("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
