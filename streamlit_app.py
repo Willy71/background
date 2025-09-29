@@ -155,7 +155,7 @@ with st.container():
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Coursera.png?raw=true", "https://cyclistic-chicago.onrender.com/", "Coursera Case Study", 210)
         st.markdown("<p style='text-align: center; color: white; font-size: 0.9rem;'>Analysis of Chicago bike trip data. Used Python and Streamlit to build an interactive dashboard.</p>", unsafe_allow_html=True)
     with col2:
-        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort.streamlit.app/', "New Functionality Proposal", 210)
+        centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort-j4ix.onrender.com/', "New Functionality Proposal", 210)
         st.markdown("<p style='text-align: center; color: white; font-size: 0.9rem;'>Functional analysis to design and propose a new feature for an existing application.</p>", unsafe_allow_html=True)
     with col3:
         centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Strategic Marketing Plan", 220)
@@ -318,6 +318,7 @@ with st.container():
             centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
 
 
