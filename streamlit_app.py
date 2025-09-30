@@ -158,7 +158,7 @@ with st.container():
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Miniatura%20-%20Analista%20funcional.png?raw=true", 'https://confort-j4ix.onrender.com/', "New Functionality Proposal", 210)
         st.markdown("<p style='text-align: center; color: white; font-size: 0.9rem;'>Functional analysis to design and propose a new feature for an existing application.</p>", unsafe_allow_html=True)
     with col3:
-        centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vktarefa1.streamlit.app/", "Strategic Marketing Plan", 220)
+        centrar_imagen_link("https://github.com/Willy71/vk_tarefa1/blob/main/picture/Marketing.png?raw=true", "https://vk-tarefa1.onrender.com/", "Strategic Marketing Plan", 220)
         st.markdown("<p style='text-align: center; color: white; font-size: 0.9rem;'>Developed a data-driven strategic plan for a marketing campaign, identifying key segments.</p>", unsafe_allow_html=True)
     with col4:
         centrar_imagen_link("https://github.com/Willy71/background/blob/main/picture/Portfolio%20011.png?raw=true", "https://oficinamecanicapg.onrender.com/", "Mechanic Shop Management", 220)
@@ -318,6 +318,7 @@ with st.container():
             centrar_imagen("https://i.postimg.cc/9Q3yg2th/python.png", width=100)
 
 line(6, "blue")
+
 
 
 
